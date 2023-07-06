@@ -40,8 +40,8 @@
                                             <div class="searchFieldInput">
                                                 <i class="fas fa-search icon_search"></i>
                                                 <div class="component__DeskSfInput">
-                                                    <input type="text" name="keyword" class="component__searchInput" onclick="modify()" id="keyword2" autocomplete="off" value="">
-                                                    <div class="component__suggest" id="none" ></div>
+                                                    <input type="text" name="keyword" class="component__searchInput" onclick="removeHandler()" id="keyword2" autocomplete="off" value="">
+                                                    <div class="component__suggest" id="Display" ></div>
                                                 </div>
                                             </div>
                                         </div>
@@ -316,7 +316,6 @@
                         </div>
                     </div>
                 </div>
-
 <!-- section area SearchBox end-->
 
 
@@ -328,10 +327,9 @@
 
 
 <!-- section area slider end-->
-
-    <section class="partners mt-5 pt-5">
+    <section class="partners mt-5 pt-5 mb-5">
         <div class="container mt-3 px-5">
-                <h1 class="text-center pb-4" data-aos="fade-right" data-aos-easing="ease-in-out">GET STARTED WITH EXPLORING REAL ESTATE OPTIONS</h1>
+                <h1 class="text-center pb-4">GET STARTED WITH EXPLORING REAL ESTATE OPTIONS</h1>
             <div class="row slider d-flex justify-content-around align-items-center">
                     <div class="col-sm-12 col-md-6 col-lg-2 col-xl-2 ps-4">
                         <div class="zoom-hover">
@@ -384,8 +382,577 @@
             </div>
         </div>
     </section>
-
 <!-- section area slider end-->
+
+<!-- section tool area start-->
+<section class="tool">
+    <div class="container insight-tool">
+        <div class="d-flex justify-content-between align-items-center">
+            <div class="d-flex justify-content-between align-items-center">
+            <img src="images/9.png" style="width:64px; height:64px;">
+            <div>
+                <h3 class="title_l_bold mb-0 mt-3" id="MORE_INSIGHTS_AND_UTILITIES_HEADING">
+                    <div class="ellipsis2Lines">Insights &amp; Tools</div>
+                </h3>
+                <p class="caption_strong_large" id="MORE_INSIGHTS_AND_UTILITIES_SUBHEADING">Go from browsing to buying</p>
+            </div>
+            </div>
+            <div class="ini__setButtonmargin" id="MORE_INSIGHTS_AND_UTILITIES_VIEW_ALL">
+                <button variant="secondaryRegular" data-label="VIEW_ALL" class="pageComponent buttons__secondaryRegular     undefined " data-sstheme="_BUTTON_TOP_LEVEL">
+                    <span class=" " data-sstheme="_BUTTON_SPAN">View all Insights</span>
+                </button>
+            </div>
+        </div>
+    <div class="row slide d-flex justify-content-around align-items-center mt-4 pt-2">
+                     <div class="col-sm-12 col-md-6 col-xl-3 col-lg-3 ms-3">
+                        <div class="card card-pref">
+                            <div class="card-body p-0 d-flex flex-column justify-content-center align-items-center">
+                                <div class="img-pref">
+                                    <img src="images/10.png">
+                                </div>
+                            </div>
+                                <h3 class="ps-0 ms-0 prefrence">Price Trends</h3>
+                                <p class="ps-0 ms-0 prefrence-p">Check property rates and prices</p>
+                        </div>
+                     </div>
+                     <div class="col-sm-12 col-md-6 col-xl-3 col-lg-3 ms-3">
+                        <div class="card card-pref">
+                            <div class="card-body p-0 d-flex flex-column justify-content-center align-items-center">
+                                <div class="img-pref">
+                                    <img src="images/11.png">
+                                </div>
+                            </div>
+                                <h3 class="ps-0 ms-0 prefrence">Locality Insights</h3>
+                                <p class="ps-0 ms-0 prefrence-p">Know more about different localities</p>
+                        </div>
+                     </div>
+                     <div class="col-sm-12 col-md-6 col-xl-3 col-lg-3 ms-3">
+                        <div class="card card-pref">
+                            <div class="card-body p-0 d-flex flex-column justify-content-center align-items-center">
+                                <div class="img-pref">
+                                    <img src="images/12.png">
+                                </div>
+                            </div>
+                                <h3 class="ps-0 ms-0 prefrence">Genuine reviews by Residents</h3>
+                                <p class="ps-0 ms-0 prefrence-p">Know what residents are saying</p>
+                        </div>
+                     </div>
+                     <div class="col-sm-12 col-md-6 col-xl-3 col-lg-3 ms-3">
+                        <div class="card card-pref">
+                            <div class="card-body p-0 d-flex flex-column justify-content-center align-items-center">
+                                <div class="img-pref">
+                                    <img src="images/13.png">
+                                </div>
+                            </div>
+                                <h3 class="ps-0 ms-0 prefrence">Transaction Prices</h3>
+                                <p class="ps-0 ms-0 prefrence-p">Check property transaction values</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-xl-3 col-lg-3 ms-3">
+                        <div class="card card-pref">
+                            <div class="card-body p-0 d-flex flex-column justify-content-center align-items-center">
+                                <div class="img-pref">
+                                    <img src="images/14.png">
+                                </div>
+                            </div>
+                                <h3 class="ps-0 ms-0 prefrence">About My Property</h3>
+                                <p class="ps-0 ms-0 prefrence-p">Track prices & analyse market demands</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-xl-3 col-lg-3 ms-3">
+                        <div class="card card-pref">
+                            <div class="card-body p-0 d-flex flex-column justify-content-center align-items-center">
+                                <div class="img-pref">
+                                    <img src="images/15.png">
+                                </div>
+                            </div>
+                                <h3 class="ps-0 ms-0 prefrence">Read Latest News</h3>
+                                <p class="ps-0 ms-0 prefrence-p">Around real estate and allied industries</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-xl-3 col-lg-3 ms-3">
+                        <div class="card card-pref">
+                            <div class="card-body p-0 d-flex flex-column justify-content-center align-items-center">
+                                <div class="img-pref">
+                                    <img src="images/16.png">
+                                </div>
+                            </div>
+                                <h3 class="ps-0 ms-0 prefrence">Check Articles</h3>
+                                <p class="ps-0 ms-0 prefrence-p">On trending topics and policy updates</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-xl-3 col-lg-3 ms-3">
+                        <div class="card card-pref">
+                            <div class="card-body p-0 d-flex flex-column justify-content-center align-items-center">
+                                <div class="img-pref">
+                                    <img src="images/17.png">
+                                </div>
+                            </div>
+                                <h3 class="ps-0 ms-0 prefrence">User Guides</h3>
+                                <p class="ps-0 ms-0 prefrence-p">To help home buyers, tenants and sellers</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-xl-3 col-lg-3 ms-3">
+                        <div class="card card-pref">
+                            <div class="card-body p-0 d-flex flex-column justify-content-center align-items-center">
+                                <div class="img-pref">
+                                    <img src="images/18.png">
+                                </div>
+                            </div>
+                                <h3 class="ps-0 ms-0 prefrence">Budget Calculator</h3>
+                                <p class="ps-0 ms-0 prefrence-p">Check your affordability range for buying home</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-xl-3 col-lg-3 ms-3">
+                        <div class="card card-pref">
+                            <div class="card-body p-0 d-flex flex-column justify-content-center align-items-center">
+                                <div class="img-pref">
+                                    <img src="images/19.png">
+                                </div>
+                            </div>
+                                <h3 class="ps-0 ms-0 prefrence">EMI Calculator</h3>
+                                <p class="ps-0 ms-0 prefrence-p">Calculate your home loan EMI</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-xl-3 col-lg-3 ms-3">
+                        <div class="card card-pref">
+                            <div class="card-body p-0 d-flex flex-column justify-content-center align-items-center">
+                                <div class="img-pref">
+                                    <img src="images/20.png">
+                                </div>
+                            </div>
+                                <h3 class="ps-0 ms-0 prefrence">Loan Eligibility</h3>
+                                <p class="ps-0 ms-0 prefrence-p">See what you can borrow for your home</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-xl-3 col-lg-3 ms-3">
+                        <div class="card card-pref">
+                            <div class="card-body p-0 d-flex flex-column justify-content-center align-items-center">
+                                <div class="img-pref">
+                                    <img src="images/21.png">
+                                </div>
+                            </div>
+                                <h3 class="ps-0 ms-0 prefrence">Area Converter</h3>
+                                <p class="ps-0 ms-0 prefrence-p">Convert one area into any other easily</p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+<!-- section tool area end-->
+
+<!-- section card-buy area end-->
+    <section class="card-buy mt-5 mb-5 pt-5">
+        <div class="container card-insight pt-5">
+                <h6 class="text-center mb-0 pb-0">ALL PROPERTY NEEDS - ONE PORTAL</h6>
+                <h1 class="text-center mt-2 pt-0">Find Better Places to Live, Work <br> and Wonder...</h1>
+            <div class="row d-flex justify-content-between align-items-start mt-5">
+                <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                    <div class="card-image zoom-hover">
+                        <img src="images/d_hp_buy_xl.webp" style="width:100%; height:auto;">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 ps-5 pt-5 mt-5">
+                    <div class="d-flex flex-column justify-content-start align-items-start ps-5">
+                        <h6 class="text-start">BUY A HOME</h6>
+                        <h2 class="text-start">Find, Buy & Own Your<br> Dream Home</h3>
+                        <p class="text-start">Explore from Apartments, land, builder floors,<br> villas and more</p>
+                        <div class="inPageSearchBox__searchBtn d-flex align-items-center justify-content-center p-0">
+                            <button type="submit" class="btn btn-primary-search py-3 px-3" style="font-size:16px;">Explore Buying</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-buy-content">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-xl-4 col-lg-4"> 
+                        <div class="pgo__sideHeading">
+                            <div class="side-heading">Top articles on <br>home buying</div>
+                            <div class="side-title mt-3">Read from Beginners check-list to Pro Tips</div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-xl-8 col-lg-8"> 
+                        <div class="d-flex flex-row justify-content-center align-items-center card-tab">
+                                <button class="card-tablinks active ms-3" onclick="openArticle(event, 'News')">Buy</button>
+                                <button class="card-tablinks" onclick="openArticle(event, 'Tax')">Rent</button>
+                                <button class="card-tablinks" onclick="openArticle(event, 'Help')">PG / Co-living</button>
+                                <button class="card-tablinks" onclick="openArticle(event, 'Investment')">Commercial</button>
+                        </div>
+                        <div class="card-tab-content">
+                            <div class="row sick-slider">
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy1.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">RBI keeps repo rate unchanged</h3>
+                                                            <h6 class="small-head">june 08 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img  d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy2.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">Land rates go up in Noida</h3>
+                                                            <h6 class="small-head">Apr 24, 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img  d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy3.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">Unchanged repo rate to bear well with buyers</h3>
+                                                            <h6 class="small-head">Jun 08, 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img  d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy4.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">pmay-clss extended till December 2024</h3>
+                                                            <h6 class="small-head">Apr 21, 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy1.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">RBI keeps repo rate unchanged</h3>
+                                                            <h6 class="small-head">june 08 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img  d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy2.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">Land rates go up in Noida</h3>
+                                                            <h6 class="small-head">Apr 24, 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img  d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy3.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">Unchanged repo rate to bear well with buyers</h3>
+                                                            <h6 class="small-head">Jun 08, 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img  d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy4.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">pmay-clss extended till December 2024</h3>
+                                                            <h6 class="small-head">Apr 21, 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy1.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">RBI keeps repo rate unchanged</h3>
+                                                            <h6 class="small-head">june 08 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img  d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy2.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">Land rates go up in Noida</h3>
+                                                            <h6 class="small-head">Apr 24, 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img  d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy3.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">Unchanged repo rate to bear well with buyers</h3>
+                                                            <h6 class="small-head">Jun 08, 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img  d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy4.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">pmay-clss extended till December 2024</h3>
+                                                            <h6 class="small-head">Apr 21, 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy1.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">RBI keeps repo rate unchanged</h3>
+                                                            <h6 class="small-head">june 08 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img  d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy2.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">Land rates go up in Noida</h3>
+                                                            <h6 class="small-head">Apr 24, 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img  d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy3.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">Unchanged repo rate to bear well with buyers</h3>
+                                                            <h6 class="small-head">Jun 08, 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img  d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy4.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">pmay-clss extended till December 2024</h3>
+                                                            <h6 class="small-head">Apr 21, 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy1.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">RBI keeps repo rate unchanged</h3>
+                                                            <h6 class="small-head">june 08 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img  d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy2.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">Land rates go up in Noida</h3>
+                                                            <h6 class="small-head">Apr 24, 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img  d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy3.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">Unchanged repo rate to bear well with buyers</h3>
+                                                            <h6 class="small-head">Jun 08, 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img  d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy4.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">pmay-clss extended till December 2024</h3>
+                                                            <h6 class="small-head">Apr 21, 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="card-bottom">Read realty news, guides &amp; articles
+                        <span>
+                            <i class="fas fa-long-arrow-alt-right" style="filter: grayscale(100%);font-size:20px;"></i>
+                        </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- section card-buy area end-->
     
 <?php include('footer.php'); ?>
 
@@ -396,17 +963,8 @@
         function modify(){
          document.getElementById("none").style.display="none";
         }
-        function border(){
-        document.getElementById("inPageSearchForm_0").style.borderBottom="4px solid #07133D";
-        }
-        function borders(){
-        document.getElementById("inPageSearchForm_1").style.borderBottom="4px solid #07133D";
-        }
-        function borderd(){
-        document.getElementById("inPageSearchForm_2").style.borderBottom="4px solid #07133D";
-        }
-        function borderds(){
-        document.getElementById("inPageSearchForm_3").style.borderBottom="4px solid #07133D"
+        function removeHandler(){
+         document.getElementById("Display").style.display="none";
         }
 
         function openCity(evt, cityName) {
@@ -440,6 +998,24 @@
 
         // Set an interval to automatically transition slides
         setInterval(nextSlide, 3000);
+</script>
+
+<script>
+function openArticle(evt, articleName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("card-tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("card-tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(articleName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
 </script>
 
 <!-- boostrap bundel -->
@@ -498,3 +1074,78 @@
   ]
 });
   </script>
+  <script type="text/javascript">
+    $('.slide').slick({
+  dots: true,
+  infinite:true,
+  speed: 300,
+  slidesToShow: 4,
+  slidesToScroll: 2,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+  </script>
+    <script type="text/javascript">
+    $('.sick-slider').slick({
+  dots: true,
+  infinite:true,
+  speed: 300,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+  </script>
+

@@ -914,7 +914,7 @@ a{
 }
 .end-content{
     position: absolute;
-    bottom: -145px;
+    bottom: -190px;
     left: 0;
     width: 100%;
     padding: 16px 32px;
@@ -1152,5 +1152,244 @@ li{
     outline: none;
     background: transparent!important;
 }
+.slick-dots li {
+    position: relative;
+    /* display: inline-block; */
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+    display: none;
+}
+.tool{
+    margin-bottom: 35px;
+    padding: 2rem 12rem!important; 
+}
+.insight-tool{
+    height: 356px;
+    background: #f0f9ff;
+    border-radius: 8px;
+    padding: 48px 30px 0 55px;
+    border-right: 20px solid #f0f9ff;
+}
+.card-pref{
+    padding: 27px 22px 24px 22px;
+    cursor: pointer;
+    background-color: white;
+    transition: box-shadow 0.3s ease-out;
+    box-shadow: 0 1px 4px 0 rgba(0,106,194,0.2);
+    border-radius: 8px;
+    height: 266px!important;
+}
+.prefrence{
+    color: #041533 !important;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    display: block;
+    text-align: left;
+    margin-top:32px;
+}
+.prefrence-p{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #8993A4;
+    display: block;
+    text-align: left;
+    margin: 4px 0 20px 0;
+}
+.img-pref{
+    background-color: #FFFBF3;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    margin-right: 0px;
+    padding: 16px;
+}
+.card{
+    border: none;
+}
+/* .title_l_bold {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 700;
+    color: #091E42;
+    display: block;
+    text-align: left;
+}
+.caption_strong_large {
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #42526E;
+    display: block;
+    text-align: left;
+} */
+.card-buy{
+    margin-bottom: 35px;
+    padding: 2rem 12rem; 
+}
+.card-buy h1{
+    font-size: 36px;
+    line-height: 52px;
+    font-weight: 700;
+    color: #041533;
+    display: block;
+    text-align: left;
+}
+.card-buy h6{
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 700;
+    color: #8993A4;
+    display: block;
+}
+.card-buy h2{
+    color: #091E42 !important;
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #091E42 !important;
+    display: block;
+}
+.card-buy p{
+    color: #42526E !important;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #041533;
+    display: block;
+}
+.card-image{
+    width: 588px;
+    height: 458px;
+    border-radius: 8px;
+}
+.card-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px
+}
+.zoom-hover {
+    overflow: hidden;
+}
+.card-buy-content{
+    background: #fff;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: -85px;
+    width: 936px;
+    padding: 32px 48px 24px 48px;
+    position: relative;
+    box-shadow: 0 1px 4px 0 rgba(0,106,194,0.2);
+}
+.pgo__sideHeading {
+    vertical-align: top;
+    margin-top: 10px;
+}
+.side-heading{
+    color: #041533 !important;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    display: block;
+    text-align: left;
+}
+.side-title{
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #42526E;
+    display: block;
+    text-align: left;
+}
+.card-tab{
+    overflow: hidden;
+    z-index: 2;
+    width: 100%;
+    white-space: nowrap;
+    overflow: auto;
+    background: #fff!important;
+    border-bottom: 1px solid #F4F5F7!important;
+}
+
+.card-tab button {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 8px;
+    display: inline-block;
+    margin-right: 24px;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #8993A4;
+    vertical-align: middle;
+    text-align: left;
+  }
+  
+  /* Change background color of buttons on hover */
+  /* .tab button:hover {
+    background-color: #ddd;
+  } */
+  
+  /* Create an active/current tablink class */
+.card-tab button.active {
+    border-bottom: 4px solid #07133D;
+    color: #091E42;
+}
+  
+  /* Style the tab content */
+.card-tabcontent{
+    display: none;
+    border-top: none;
+}
+.card-tab-content{
+    padding-top: 16px;
+}
+.card-small-img img{
+    border-radius: 4px!important;
+    width: 80px!important;
+    height: 60px!important;
+}
+.small-h{
+    font-size: 14px!important;
+    line-height: 20px!important;
+    font-weight: 600!important;
+    color: #091E42!important;
+}
+.small-head{
+    font-size: 12px!important;
+    line-height: 16px!important;
+    font-weight: 400!important;
+    color: #8993A4!important;
+}
+.bottom{
+    border-bottom: 1px solid #EBECF0;
+    padding-bottom: 8px;
+}
+.card-tab-content .slick-prev::before, .card-tab-content .slick-next::before {
+    font-size: 20px;
+    opacity: 1;
+    color: #07133D !important;
+}
+.card-bottom{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    color: rgb(37, 56, 88);
+    display: block;
+    text-align: left;
+}
+
 
 
