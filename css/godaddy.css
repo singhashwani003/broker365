@@ -403,9 +403,8 @@ img {
     justify-content: space-between;
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
-    padding: 16px 0;
+    padding: 10px 0;
     background: #fff;
-    border-bottom: 1px solid #F4F5F7;
     z-index: 2;
     width:100%;
 }
@@ -441,6 +440,7 @@ img {
     border-bottom-left-radius: 16px;
     border-bottom-right-radius: 16px;
     background-color: #fff;
+    box-shadow: 0 0 10px 1px rgba(21,28,34,0.5);
 }
 .basicFilter{
     display: flex;
@@ -1030,49 +1030,15 @@ li{
     width: 90px;
     left: 753px;
 }
-.tab {
-    overflow: hidden;
-  }
+
   
   /* Style the buttons inside the tab */
-  .tab button {
-    background-color: inherit;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 8px 32px;
-    transition: 0.3s;
-    font-size: 16px;
-    color: #42526E;
-    line-height: 24px;
-    font-weight: 600;
-  }
-  
-  /* Change background color of buttons on hover */
-  /* .tab button:hover {
-    background-color: #ddd;
-  } */
-  
-  /* Create an active/current tablink class */
-  .tab button.active {
-    background-color: #0078DB;
-    color:#fff;
-    border-radius: 10px;
-  }
-  
-  /* Style the tab content */
-.tabcontent {
-    display: none;
-    border-top: none;
-    animation: fadeEffect 1.5s;
-    width: max-content;
-    margin: 0 auto;
-    position: absolute;
-    top: 430px;
-    left: 0;
-    right: 0;
-    z-index: 3;
+.tab-button{
+    padding: 8px 32px!important;
+    font-size: 16px!important;
+    color: #42526E!important;
+    line-height: 24px!important;
+    font-weight: 600!important;
 }
 @-webkit-keyframes fadeEffect {
     from {opacity: 0;}
@@ -1129,7 +1095,7 @@ li{
     padding-left: 0.5rem;
 }
 .slick-prev::before, .slick-next::before {
-    font-size: 30px;
+    font-size: 25px;
     opacity: 1;
     color: #07133D !important;
 }
@@ -1310,7 +1276,7 @@ li{
     display: block;
     text-align: left;
 }
-.card-tab{
+.tab-container{
     overflow: hidden;
     z-index: 2;
     width: 100%;
@@ -1320,7 +1286,7 @@ li{
     border-bottom: 1px solid #F4F5F7!important;
 }
 
-.card-tab button {
+.tab-btn{
     background-color: inherit;
     border: none;
     outline: none;
@@ -1343,18 +1309,16 @@ li{
   } */
   
   /* Create an active/current tablink class */
-.card-tab button.active {
+.tab-container .active{
     border-bottom: 4px solid #07133D;
     color: #091E42;
 }
   
   /* Style the tab content */
-.card-tabcontent{
+.tab-content{
     display: none;
     border-top: none;
-}
-.card-tab-content{
-    padding-top: 16px;
+    animation: fadeEffect 1.5s;
 }
 .card-small-img img{
     border-radius: 4px!important;
@@ -1377,7 +1341,7 @@ li{
     border-bottom: 1px solid #EBECF0;
     padding-bottom: 8px;
 }
-.card-tab-content .slick-prev::before, .card-tab-content .slick-next::before {
+.tab-content .slick-prev::before, .tab-content .slick-next::before {
     font-size: 20px;
     opacity: 1;
     color: #07133D !important;
@@ -1390,6 +1354,202 @@ li{
     display: block;
     text-align: left;
 }
+.residental h1{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 700;
+    color: #091E42;
+    display: block;
+    text-align: left;
+}
+.residental p{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #8993A4;
+    display: block;
+    text-align: left;
+}
+.residental .card{
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+    white-space: normal !important;
+    cursor: pointer;
+    height: 360px;
+    background-color: transparent;
+}
+.list_header_bold{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #091E42;
+    display: block;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+.input_placeholder_inactive_resFP{
+    font-size: 14px;
+    line-height: 14px !important;
+    font-weight: 400;
+    color: #8993A4;
+    display: block;
+    text-align: left;
+}
+.list_header_semiBold{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    color: #091E42;
+    display: block;
+    text-align: left;
+}
+.residental .container{
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
+
+.resfeaturedProjectsCard__featuredProjectCard.fpUpgrade {
+    width: 500px;
+    height: 370px;
+}
+.resfeaturedProjectsCard__featuredProjectCard {
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    white-space: normal !important;
+    cursor: pointer;
+}
+.resfeaturedProjectsCard__featuredProjectCard.fpUpgrade .resfeaturedProjectsCard__imageBox {
+    border-radius: 4px;
+    height: 234px;
+    width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    cursor: pointer;
+}
+.resfeaturedProjectsCard__featuredProjectCard .resfeaturedProjectsCard__imageBox img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.resfeaturedProjectsCard__featuredProjectCard .resfeaturedProjectsCard__imageBox .resfeaturedProjectsCard__featuredLarge {
+    position: absolute;
+    left: 0;
+    top: 12px;
+}
+.fp_homepage__badges__featuredRegular {
+    padding: 2px 4px;
+    font-size: 8px;
+    line-height: 10px;
+    font-weight: 600;
+    color: #FFFFFF;
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+.fp_homepage__badges__featuredRegular {
+    border-color: #B00AB6 !important;
+    background: #B00AB6 !important;
+}
+.fp_homepage__badges__featuredRegular>div {
+    display: inline-block;
+    vertical-align: middle;
+}
+.resfeaturedProjectsCard__featuredProjectCard .resfeaturedProjectsCard__imageBox .resfeaturedProjectsCard__shortlistItem {
+    background: rgba(21, 28, 34, 0.7);
+    border-radius: 16px;
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    right: 12px;
+    text-align: center;
+    top: 12px;
+    cursor: pointer;
+}
+.resfeaturedProjectsCard__featuredProjectCard .resfeaturedProjectsCard__imageBox .resfeaturedProjectsCard__shortlistItem>* {
+    margin: auto 0;
+}
+.has-webp .iconS_Common_16.icon_whiteShortlist {
+    background-position: -32px -64px;
+}
+.resfeaturedProjectsCard__featuredProjectCard .resfeaturedProjectsCard__contentBox {
+    width: 85%;
+    height: 185px;
+    border-radius: 8px;
+    margin: 0 auto;
+    z-index: 1;
+    position: absolute;
+    overflow: hidden;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    box-shadow: 0 5px 5px 1px rgba(0, 0, 0, 0.1);
+}
+.resfeaturedProjectsCard__featuredProjectCard.fpUpgrade .resfeaturedProjectsCard__contentBox::before {
+    bottom: 147px;
+    left: 40px;
+    right: auto;
+    width: 74px;
+    height: 74px;
+}
+.resfeaturedProjectsCard__featuredProjectCard .resfeaturedProjectsCard__contentBox::before {
+    height: 62px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 9999px #fff;
+    z-index: 0;
+    margin: auto;
+    display: block;
+    content: "";
+    position: absolute;
+}
+.resfeaturedProjectsCard__featuredProjectCard .resfeaturedProjectsCard__contentBox:after {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 0px -300px 600px -300px #fff;
+    margin: auto;
+    display: block;
+    content: "";
+    position: absolute;
+    z-index: -1;
+}
+.resfeaturedProjectsCard__featuredProjectCard.fpUpgrade img.resfeaturedProjectsCard__iconImg {
+    width: 64px;
+    height: 64px;
+    right: auto;
+    left: 82px;
+    bottom: 161px;
+    position: absolute;
+    border-radius: 50%;
+}
+.resfeaturedProjectsCard__featuredProjectCard.fpUpgrade .resfeaturedProjectsCard__contentText {
+    bottom: 40px;
+    padding-left: 20px;
+}
+.resfeaturedProjectsCard__featuredProjectCard .resfeaturedProjectsCard__contentText {
+    left: 0;
+    right: 0;
+    border-radius: 50%;
+    margin: auto;
+    position: absolute;
+    z-index: 1;
+    color: #000;
+    text-align: center;
+    width: 75%;
+    white-space: normal;
+}
+.residental .slick-prev, .residental .slick-next {
+    top: 20%;
+}
+.residental .slick-prev::before, .residental .slick-next::before {
+    font-size: 20px;
+    opacity: 1;
+    color: #07133D !important;
+}
+
+
 
 
 

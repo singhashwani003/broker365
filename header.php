@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
         <!-- external css -->
-        <link rel="stylesheet" href="css/godaddy.css?ver=26"/>
+        <link rel="stylesheet" href="css/godaddy.css?ver=36"/>
 
         <!-- title -->
         <title>brokers365</title>
@@ -40,14 +40,14 @@
                 <div class="p-4" style="position:relative;">
                     <div class="display_l_bold Ng800 spacer32">Explore real estate in...</div>
                     <div class="search-tab">
-                        <div class="tab d-flex flex-row justify-content-center align-items-center">
-                            <button class="tablinks active ms-3" onclick="openCity(event, 'Buy')">Buy</button>
-                            <button class="tablinks" onclick="openCity(event, 'Rent')">Rent / Lease</button>
-                            <button class="tablinks" onclick="openCity(event, 'PLOTS')">Plots/Land</button>
-                            <button class="tablinks" onclick="openCity(event, 'PG / Co-living')">PG / Co-living</button>
+                        <div class="tab-container d-flex flex-row justify-content-center align-items-center">
+                        <button class="tab-btn active ms-3" onclick="openTab(event, 'tab12')" style="margin: 8px 20px!important; font-size: 16px!important;line-height: 24px!important;font-weight: 600!important;">Buy</button>
+                            <button class="tab-btn" onclick="openTab(event, 'tab12')" style="margin: 8px 20px!important; font-size: 16px!important;line-height: 24px!important;font-weight: 600!important;">Rent / Lease</button>
+                            <button class="tab-btn" onclick="openTab(event, 'tab12')" style="margin: 8px 20px!important; font-size: 16px!important;line-height: 24px!important;font-weight: 600!important;">Plots/Land</button>
+                            <button class="tab-btn" onclick="openTab(event, 'tab12')" style="margin: 8px 20px!important; font-size: 16px!important;line-height: 24px!important;font-weight: 600!important;">PG / Co-living</button>
                         </div>
                     </div>
-                    <div class="inputFilterOptions">
+                    <div id="tab12" class="inputFilterOptions tab-content">
                             <div class="basicFilter">  
                                 <div class="list_header text-muted">
                                     <div class="">All Residential</div>

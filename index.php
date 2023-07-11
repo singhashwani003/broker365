@@ -12,310 +12,310 @@
 <!-- section area end-->
 
 <!-- section area SearchBox start-->
-    <section class="SearchBox">
-                    <div class="search-tab">
-                        <div class="tab d-flex flex-row justify-content-center align-items-center">
-                            <button class="tablinks active ms-3" onclick="openCity(event, 'Buy')">Buy</button>
-                            <button class="tablinks" onclick="openCity(event, 'Rent')">Rent</button>
-                            <button class="tablinks" onclick="openCity(event, 'PG / Co-living')">PG / Co-living</button>
-                            <button class="tablinks" onclick="openCity(event, 'Commercial')">Commercial</button>
-                            <button class="tablinks" onclick="openCity(event, 'Coworking')">Coworking</button>
-                            <button class="tablinks" onclick="openCity(event, 'PLOTS')">Plots/Land
+                <section class="SearchBox">
+                    <div class="search-tab d-flex flex-column">
+                        <div class="tab-container d-flex flex-row justify-content-center align-items-center">
+                            <button class="tab-btn active ms-3" onclick="openTab(event, 'tab5')" style="margin: 8px 20px!important; font-size: 16px!important;line-height: 24px!important;font-weight: 600!important;">Buy</button>
+                            <button class="tab-btn" onclick="openTab(event, 'tab6')" style="margin: 8px 20px!important; font-size: 16px!important;line-height: 24px!important;font-weight: 600!important;">Rent</button>
+                            <button class="tab-btn" onclick="openTab(event, 'tab7')" style="margin: 8px 20px!important; font-size: 16px!important;line-height: 24px!important;font-weight: 600!important;">PG / Co-living</button>
+                            <button class="tab-btn" onclick="openTab(event, 'tab8')" style="margin: 8px 20px!important; font-size: 16px!important;line-height: 24px!important;font-weight: 600!important;">Commercial</button>
+                            <button class="tab-btn" onclick="openTab(event, 'tab9')" style="margin: 8px 20px!important; font-size: 16px!important;line-height: 24px!important;font-weight: 600!important;">Coworking</button>
+                            <button class="tab-btn" onclick="openTab(event, 'tab10')" style="margin: 8px 20px!important; font-size: 16px!important;line-height: 24px!important;font-weight: 600!important;">Plots/Land
                                 <div variant="primaryLarge" style="display:inline-block;margin:0;margin-left:4px;margin-bottom:2px;padding:0;" childrenstyle="[object Object]" class=" pageComponentundefined badges__primaryLarge undefined  badges__pointerEvents" data-sstheme="_BADGE_TOP">
                                     <div style="margin:0;padding:2px 4px;cursor:default;font-size: 8px;line-height: 10px;font-weight: 600;" class="null text-light" data-sstheme="_BADGE_CHILD">NEW</div>
                                 </div>
                             </button>
-                            <button class="tablinks" onclick="openCity(event, 'PROJ')">Projects</button>
+                            <button class="tab-btn" onclick="openTab(event, 'tab11')" style="margin: 8px 20px!important; font-size: 16px!important;line-height: 24px!important;font-weight: 600!important;">Projects</button>
                         </div>
-                    </div>
-    </section>
-                    <div id="Buy" class="tabcontent" style="display:block;">
-                        <div class="search-tab-content-area p-0">
-                            <div class="inputFilterOptions">
-                                    <div class="basicFilter">  
-                                        <div class="list_header text-muted">
-                                            <div class="">All Residential</div>
-                                        </div>
-                                        <div class="Input-feild">
-                                            <div class="searchFieldInput">
-                                                <i class="fas fa-search icon_search"></i>
-                                                <div class="component__DeskSfInput">
-                                                    <input type="text" name="keyword" class="component__searchInput" onclick="removeHandler()" id="keyword2" autocomplete="off" value="">
-                                                    <div class="component__suggest" id="Display" ></div>
-                                                </div>
+                        <div id="tab5" class="tab-content active">
+                            <div class="search-tab-content-area p-0">
+                                <div class="inputFilterOptions">
+                                        <div class="basicFilter">  
+                                            <div class="list_header text-muted">
+                                                <div class="">All Residential</div>
                                             </div>
-                                        </div>
-                                        <div class="inPageSearchBox__searchBtn">
-                                        <section>
-                                                <div class="pageComponent undefined" data-label="VOICE_SEARCH" style="height: 40px;">
-                                                    <div class="SpeechToText__voiceIcon" style="height: 40px;">
-                                                    <img src="images/nearMeV2.png" width="40" height="40">
+                                            <div class="Input-feild">
+                                                <div class="searchFieldInput">
+                                                    <i class="fas fa-search icon_search"></i>
+                                                    <div class="component__DeskSfInput">
+                                                        <input type="text" name="keyword" class="component__searchInput" onclick="removeHandler()" id="keyword2" autocomplete="off" value="">
+                                                        <div class="component__suggest" id="Display" ></div>
                                                     </div>
                                                 </div>
-                                        </section>
+                                            </div>
+                                            <div class="inPageSearchBox__searchBtn">
+                                            <section>
+                                                    <div class="pageComponent undefined" data-label="VOICE_SEARCH" style="height: 40px;">
+                                                        <div class="SpeechToText__voiceIcon" style="height: 40px;">
+                                                        <img src="images/nearMeV2.png" width="40" height="40">
+                                                        </div>
+                                                    </div>
+                                            </section>
+                                            </div>
+                                            <div class="inPageSearchBox__searchBtn">
+                                            <section>
+                                                    <div class="pageComponent undefined" data-label="VOICE_SEARCH" style="height: 40px;">
+                                                        <div class="SpeechToText__voiceIcon" style="height: 40px;">
+                                                            <img src="images/mic.png" style="height: 40px;">
+                                                        </div>
+                                                    </div>
+                                            </section>
+                                            </div>
+                                            <div class="inPageSearchBox__searchBtn d-flex align-items-center">
+                                                <button type="submit" class="btn btn-primary-search">Search</div>
+                                            </div>
                                         </div>
-                                        <div class="inPageSearchBox__searchBtn">
-                                        <section>
-                                                <div class="pageComponent undefined" data-label="VOICE_SEARCH" style="height: 40px;">
-                                                    <div class="SpeechToText__voiceIcon" style="height: 40px;">
-                                                        <img src="images/mic.png" style="height: 40px;">
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab6" class="tab-content active">
+                            <div class="search-tab-content-area p-0">
+                                <div class="inputFilterOptions">
+                                        <div class="basicFilter">  
+                                            <div class="list_header text-muted">
+                                                <div class="">All Residential</div>
+                                            </div>
+                                            <div class="Input-feild">
+                                                <div class="searchFieldInput">
+                                                    <i class="fas fa-search icon_search"></i>
+                                                    <div class="component__DeskSfInput">
+                                                        <input type="text" name="keyword" class="component__searchInput" onclick="removeHandler()" id="keyword2" autocomplete="off" value="">
+                                                        <div class="component__suggest" id="Display" ></div>
                                                     </div>
                                                 </div>
-                                        </section>
-                                        </div>
-                                        <div class="inPageSearchBox__searchBtn d-flex align-items-center">
-                                            <button type="submit" class="btn btn-primary-search">Search</div>
-                                        </div>
-                                    </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="Rent" class="tabcontent">
-                    <div class="search-tab-content-area p-0">
-                            <div class="inputFilterOptions">
-                                    <div class="basicFilter">  
-                                        <div class="list_header text-muted">
-                                            <div class="">All Residential</div>
-                                        </div>
-                                        <div class="Input-feild">
-                                            <div class="searchFieldInput">
-                                                <i class="fas fa-search icon_search"></i>
-                                                <div class="component__DeskSfInput">
-                                                    <input type="text" name="keyword" class="component__searchInput" onclick="modify()" id="keyword2" autocomplete="off" value="">
-                                                    <div class="component__suggest" id="none" ></div>
-                                                </div>
+                                            </div>
+                                            <div class="inPageSearchBox__searchBtn">
+                                            <section>
+                                                    <div class="pageComponent undefined" data-label="VOICE_SEARCH" style="height: 40px;">
+                                                        <div class="SpeechToText__voiceIcon" style="height: 40px;">
+                                                        <img src="images/nearMeV2.png" width="40" height="40">
+                                                        </div>
+                                                    </div>
+                                            </section>
+                                            </div>
+                                            <div class="inPageSearchBox__searchBtn">
+                                            <section>
+                                                    <div class="pageComponent undefined" data-label="VOICE_SEARCH" style="height: 40px;">
+                                                        <div class="SpeechToText__voiceIcon" style="height: 40px;">
+                                                            <img src="images/mic.png" style="height: 40px;">
+                                                        </div>
+                                                    </div>
+                                            </section>
+                                            </div>
+                                            <div class="inPageSearchBox__searchBtn d-flex align-items-center">
+                                                <button type="submit" class="btn btn-primary-search">Search</div>
                                             </div>
                                         </div>
-                                        <div class="inPageSearchBox__searchBtn">
-                                        <section>
-                                                <div class="pageComponent undefined" data-label="VOICE_SEARCH" style="height: 40px;">
-                                                    <div class="SpeechToText__voiceIcon" style="height: 40px;">
-                                                    <img src="images/nearMeV2.png" width="40" height="40">
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab7" class="tab-content active">
+                            <div class="search-tab-content-area p-0">
+                                <div class="inputFilterOptions">
+                                        <div class="basicFilter">  
+                                            <div class="list_header text-muted">
+                                                <div class="">All Residential</div>
+                                            </div>
+                                            <div class="Input-feild">
+                                                <div class="searchFieldInput">
+                                                    <i class="fas fa-search icon_search"></i>
+                                                    <div class="component__DeskSfInput">
+                                                        <input type="text" name="keyword" class="component__searchInput" onclick="removeHandler()" id="keyword2" autocomplete="off" value="">
+                                                        <div class="component__suggest" id="Display" ></div>
                                                     </div>
                                                 </div>
-                                        </section>
+                                            </div>
+                                            <div class="inPageSearchBox__searchBtn">
+                                            <section>
+                                                    <div class="pageComponent undefined" data-label="VOICE_SEARCH" style="height: 40px;">
+                                                        <div class="SpeechToText__voiceIcon" style="height: 40px;">
+                                                        <img src="images/nearMeV2.png" width="40" height="40">
+                                                        </div>
+                                                    </div>
+                                            </section>
+                                            </div>
+                                            <div class="inPageSearchBox__searchBtn">
+                                            <section>
+                                                    <div class="pageComponent undefined" data-label="VOICE_SEARCH" style="height: 40px;">
+                                                        <div class="SpeechToText__voiceIcon" style="height: 40px;">
+                                                            <img src="images/mic.png" style="height: 40px;">
+                                                        </div>
+                                                    </div>
+                                            </section>
+                                            </div>
+                                            <div class="inPageSearchBox__searchBtn d-flex align-items-center">
+                                                <button type="submit" class="btn btn-primary-search">Search</div>
+                                            </div>
                                         </div>
-                                        <div class="inPageSearchBox__searchBtn">
-                                        <section>
-                                                <div class="pageComponent undefined" data-label="VOICE_SEARCH" style="height: 40px;">
-                                                    <div class="SpeechToText__voiceIcon" style="height: 40px;">
-                                                        <img src="images/mic.png" style="height: 40px;">
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab8" class="tab-content active">
+                            <div class="search-tab-content-area p-0">
+                                <div class="inputFilterOptions">
+                                        <div class="basicFilter">  
+                                            <div class="list_header text-muted">
+                                                <div class="">All Residential</div>
+                                            </div>
+                                            <div class="Input-feild">
+                                                <div class="searchFieldInput">
+                                                    <i class="fas fa-search icon_search"></i>
+                                                    <div class="component__DeskSfInput">
+                                                        <input type="text" name="keyword" class="component__searchInput" onclick="removeHandler()" id="keyword2" autocomplete="off" value="">
+                                                        <div class="component__suggest" id="Display" ></div>
                                                     </div>
                                                 </div>
-                                        </section>
+                                            </div>
+                                            <div class="inPageSearchBox__searchBtn">
+                                            <section>
+                                                    <div class="pageComponent undefined" data-label="VOICE_SEARCH" style="height: 40px;">
+                                                        <div class="SpeechToText__voiceIcon" style="height: 40px;">
+                                                        <img src="images/nearMeV2.png" width="40" height="40">
+                                                        </div>
+                                                    </div>
+                                            </section>
+                                            </div>
+                                            <div class="inPageSearchBox__searchBtn">
+                                            <section>
+                                                    <div class="pageComponent undefined" data-label="VOICE_SEARCH" style="height: 40px;">
+                                                        <div class="SpeechToText__voiceIcon" style="height: 40px;">
+                                                            <img src="images/mic.png" style="height: 40px;">
+                                                        </div>
+                                                    </div>
+                                            </section>
+                                            </div>
+                                            <div class="inPageSearchBox__searchBtn d-flex align-items-center">
+                                                <button type="submit" class="btn btn-primary-search">Search</div>
+                                            </div>
                                         </div>
-                                        <div class="inPageSearchBox__searchBtn d-flex align-items-center">
-                                            <button type="submit" class="btn btn-primary-search">Search</div>
-                                        </div>
-                                    </div>
+                                </div>
                             </div>
-                        </div>     
-                    </div>
-                <div id="PG / Co-living" class="tabcontent">
-                        <div class="search-tab-content-area p-0">
-                        <div class="inputFilterOptions">
-                            <div class="basicFilter">  
-                                <div class="list_header text-muted">
-                                    <div class="">All Residential</div>
-                                </div>
-                                <div class="Input-feild">
-                                    <div class="searchFieldInput">
-                                        <i class="fas fa-search icon_search"></i>
-                                        <div class="component__DeskSfInput">
-                                            <input type="text" name="keyword" class="component__searchInput" onclick="modify()" id="keyword2" autocomplete="off" value="">
-                                            <div class="component__suggest" id="none" ></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="inPageSearchBox__searchBtn">
-                                <section>
-                                        <div class="pageComponent undefined" data-label="VOICE_SEARCH" style="height: 40px;">
-                                            <div class="SpeechToText__voiceIcon" style="height: 40px;">
-                                            <img src="images/nearMeV2.png" width="40" height="40">
+                        </div>
+                        <div id="tab9" class="tab-content active">
+                            <div class="search-tab-content-area p-0">
+                                <div class="inputFilterOptions">
+                                        <div class="basicFilter">  
+                                            <div class="list_header text-muted">
+                                                <div class="">All Residential</div>
+                                            </div>
+                                            <div class="Input-feild">
+                                                <div class="searchFieldInput">
+                                                    <i class="fas fa-search icon_search"></i>
+                                                    <div class="component__DeskSfInput">
+                                                        <input type="text" name="keyword" class="component__searchInput" onclick="removeHandler()" id="keyword2" autocomplete="off" value="">
+                                                        <div class="component__suggest" id="Display" ></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="inPageSearchBox__searchBtn">
+                                            <section>
+                                                    <div class="pageComponent undefined" data-label="VOICE_SEARCH" style="height: 40px;">
+                                                        <div class="SpeechToText__voiceIcon" style="height: 40px;">
+                                                        <img src="images/nearMeV2.png" width="40" height="40">
+                                                        </div>
+                                                    </div>
+                                            </section>
+                                            </div>
+                                            <div class="inPageSearchBox__searchBtn">
+                                            <section>
+                                                    <div class="pageComponent undefined" data-label="VOICE_SEARCH" style="height: 40px;">
+                                                        <div class="SpeechToText__voiceIcon" style="height: 40px;">
+                                                            <img src="images/mic.png" style="height: 40px;">
+                                                        </div>
+                                                    </div>
+                                            </section>
+                                            </div>
+                                            <div class="inPageSearchBox__searchBtn d-flex align-items-center">
+                                                <button type="submit" class="btn btn-primary-search">Search</div>
                                             </div>
                                         </div>
-                                </section>
                                 </div>
-                                <div class="inPageSearchBox__searchBtn">
-                                <section>
-                                        <div class="pageComponent undefined" data-label="VOICE_SEARCH" style="height: 40px;">
-                                            <div class="SpeechToText__voiceIcon" style="height: 40px;">
-                                                <img src="images/mic.png" style="height: 40px;">
+                            </div>
+                        </div>
+                        <div id="tab10" class="tab-content active">
+                            <div class="search-tab-content-area p-0">
+                                <div class="inputFilterOptions">
+                                        <div class="basicFilter">  
+                                            <div class="list_header text-muted">
+                                                <div class="">All Residential</div>
+                                            </div>
+                                            <div class="Input-feild">
+                                                <div class="searchFieldInput">
+                                                    <i class="fas fa-search icon_search"></i>
+                                                    <div class="component__DeskSfInput">
+                                                        <input type="text" name="keyword" class="component__searchInput" onclick="removeHandler()" id="keyword2" autocomplete="off" value="">
+                                                        <div class="component__suggest" id="Display" ></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="inPageSearchBox__searchBtn">
+                                            <section>
+                                                    <div class="pageComponent undefined" data-label="VOICE_SEARCH" style="height: 40px;">
+                                                        <div class="SpeechToText__voiceIcon" style="height: 40px;">
+                                                        <img src="images/nearMeV2.png" width="40" height="40">
+                                                        </div>
+                                                    </div>
+                                            </section>
+                                            </div>
+                                            <div class="inPageSearchBox__searchBtn">
+                                            <section>
+                                                    <div class="pageComponent undefined" data-label="VOICE_SEARCH" style="height: 40px;">
+                                                        <div class="SpeechToText__voiceIcon" style="height: 40px;">
+                                                            <img src="images/mic.png" style="height: 40px;">
+                                                        </div>
+                                                    </div>
+                                            </section>
+                                            </div>
+                                            <div class="inPageSearchBox__searchBtn d-flex align-items-center">
+                                                <button type="submit" class="btn btn-primary-search">Search</div>
                                             </div>
                                         </div>
-                                </section>
                                 </div>
-                                <div class="inPageSearchBox__searchBtn d-flex align-items-center">
-                                    <button type="submit" class="btn btn-primary-search">Search</div>
+                            </div>
+                        </div>
+                        <div id="tab11" class="tab-content active">
+                            <div class="search-tab-content-area p-0">
+                                <div class="inputFilterOptions">
+                                        <div class="basicFilter">  
+                                            <div class="list_header text-muted">
+                                                <div class="">All Residential</div>
+                                            </div>
+                                            <div class="Input-feild">
+                                                <div class="searchFieldInput">
+                                                    <i class="fas fa-search icon_search"></i>
+                                                    <div class="component__DeskSfInput">
+                                                        <input type="text" name="keyword" class="component__searchInput" onclick="removeHandler()" id="keyword2" autocomplete="off" value="">
+                                                        <div class="component__suggest" id="Display" ></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="inPageSearchBox__searchBtn">
+                                            <section>
+                                                    <div class="pageComponent undefined" data-label="VOICE_SEARCH" style="height: 40px;">
+                                                        <div class="SpeechToText__voiceIcon" style="height: 40px;">
+                                                        <img src="images/nearMeV2.png" width="40" height="40">
+                                                        </div>
+                                                    </div>
+                                            </section>
+                                            </div>
+                                            <div class="inPageSearchBox__searchBtn">
+                                            <section>
+                                                    <div class="pageComponent undefined" data-label="VOICE_SEARCH" style="height: 40px;">
+                                                        <div class="SpeechToText__voiceIcon" style="height: 40px;">
+                                                            <img src="images/mic.png" style="height: 40px;">
+                                                        </div>
+                                                    </div>
+                                            </section>
+                                            </div>
+                                            <div class="inPageSearchBox__searchBtn d-flex align-items-center">
+                                                <button type="submit" class="btn btn-primary-search">Search</div>
+                                            </div>
+                                        </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div id="Commercial" class="tabcontent">
-                        <div class="search-tab-content-area p-0">
-                        <div class="inputFilterOptions">
-                            <div class="basicFilter">  
-                                <div class="list_header text-muted">
-                                    <div class="">All Residential</div>
-                                </div>
-                                <div class="Input-feild">
-                                    <div class="searchFieldInput">
-                                        <i class="fas fa-search icon_search"></i>
-                                        <div class="component__DeskSfInput">
-                                            <input type="text" name="keyword" class="component__searchInput" onclick="modify()" id="keyword2" autocomplete="off" value="">
-                                            <div class="component__suggest" id="none" ></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="inPageSearchBox__searchBtn">
-                                <section>
-                                        <div class="pageComponent undefined" data-label="VOICE_SEARCH" style="height: 40px;">
-                                            <div class="SpeechToText__voiceIcon" style="height: 40px;">
-                                            <img src="images/nearMeV2.png" width="40" height="40">
-                                            </div>
-                                        </div>
-                                </section>
-                                </div>
-                                <div class="inPageSearchBox__searchBtn">
-                                <section>
-                                        <div class="pageComponent undefined" data-label="VOICE_SEARCH" style="height: 40px;">
-                                            <div class="SpeechToText__voiceIcon" style="height: 40px;">
-                                                <img src="images/mic.png" style="height: 40px;">
-                                            </div>
-                                        </div>
-                                </section>
-                                </div>
-                                <div class="inPageSearchBox__searchBtn d-flex align-items-center">
-                                    <button type="submit" class="btn btn-primary-search">Search</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="Coworking" class="tabcontent">
-                        <div class="search-tab-content-area p-0">
-                        <div class="inputFilterOptions">
-                            <div class="basicFilter">  
-                                <div class="list_header text-muted">
-                                    <div class="">All Residential</div>
-                                </div>
-                                <div class="Input-feild">
-                                    <div class="searchFieldInput">
-                                        <i class="fas fa-search icon_search"></i>
-                                        <div class="component__DeskSfInput">
-                                            <input type="text" name="keyword" class="component__searchInput" onclick="modify()" id="keyword2" autocomplete="off" value="">
-                                            <div class="component__suggest" id="none" ></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="inPageSearchBox__searchBtn">
-                                <section>
-                                        <div class="pageComponent undefined" data-label="VOICE_SEARCH" style="height: 40px;">
-                                            <div class="SpeechToText__voiceIcon" style="height: 40px;">
-                                            <img src="images/nearMeV2.png" width="40" height="40">
-                                            </div>
-                                        </div>
-                                </section>
-                                </div>
-                                <div class="inPageSearchBox__searchBtn">
-                                <section>
-                                        <div class="pageComponent undefined" data-label="VOICE_SEARCH" style="height: 40px;">
-                                            <div class="SpeechToText__voiceIcon" style="height: 40px;">
-                                                <img src="images/mic.png" style="height: 40px;">
-                                            </div>
-                                        </div>
-                                </section>
-                                </div>
-                                <div class="inPageSearchBox__searchBtn d-flex align-items-center">
-                                    <button type="submit" class="btn btn-primary-search">Search</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="PLOTS" class="tabcontent">
-                        <div class="search-tab-content-area p-0">
-                        <div class="inputFilterOptions">
-                            <div class="basicFilter">  
-                                <div class="list_header text-muted">
-                                    <div class="">All Residential</div>
-                                </div>
-                                <div class="Input-feild">
-                                    <div class="searchFieldInput">
-                                        <i class="fas fa-search icon_search"></i>
-                                        <div class="component__DeskSfInput">
-                                            <input type="text" name="keyword" class="component__searchInput" onclick="modify()" id="keyword2" autocomplete="off" value="">
-                                            <div class="component__suggest" id="none" ></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="inPageSearchBox__searchBtn">
-                                <section>
-                                        <div class="pageComponent undefined" data-label="VOICE_SEARCH" style="height: 40px;">
-                                            <div class="SpeechToText__voiceIcon" style="height: 40px;">
-                                            <img src="images/nearMeV2.png" width="40" height="40">
-                                            </div>
-                                        </div>
-                                </section>
-                                </div>
-                                <div class="inPageSearchBox__searchBtn">
-                                <section>
-                                        <div class="pageComponent undefined" data-label="VOICE_SEARCH" style="height: 40px;">
-                                            <div class="SpeechToText__voiceIcon" style="height: 40px;">
-                                                <img src="images/mic.png" style="height: 40px;">
-                                            </div>
-                                        </div>
-                                </section>
-                                </div>
-                                <div class="inPageSearchBox__searchBtn d-flex align-items-center">
-                                    <button type="submit" class="btn btn-primary-search">Search</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="PROJ" class="tabcontent">
-                        <div class="search-tab-content-area p-0">
-                        <div class="inputFilterOptions">
-                            <div class="basicFilter">  
-                                <div class="list_header text-muted">
-                                    <div class="">All Residential</div>
-                                </div>
-                                <div class="Input-feild">
-                                    <div class="searchFieldInput">
-                                        <i class="fas fa-search icon_search"></i>
-                                        <div class="component__DeskSfInput">
-                                            <input type="text" name="keyword" class="component__searchInput" onclick="modify()" id="keyword2" autocomplete="off" value="">
-                                            <div class="component__suggest" id="none" ></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="inPageSearchBox__searchBtn">
-                                <section>
-                                        <div class="pageComponent undefined" data-label="VOICE_SEARCH" style="height: 40px;">
-                                            <div class="SpeechToText__voiceIcon" style="height: 40px;">
-                                            <img src="images/nearMeV2.png" width="40" height="40">
-                                            </div>
-                                        </div>
-                                </section>
-                                </div>
-                                <div class="inPageSearchBox__searchBtn">
-                                <section>
-                                        <div class="pageComponent undefined" data-label="VOICE_SEARCH" style="height: 40px;">
-                                            <div class="SpeechToText__voiceIcon" style="height: 40px;">
-                                                <img src="images/mic.png" style="height: 40px;">
-                                            </div>
-                                        </div>
-                                </section>
-                                </div>
-                                <div class="inPageSearchBox__searchBtn d-flex align-items-center">
-                                    <button type="submit" class="btn btn-primary-search">Search</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                </section>
 <!-- section area SearchBox end-->
 
 
@@ -572,13 +572,13 @@
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6 col-xl-8 col-lg-8"> 
-                        <div class="d-flex flex-row justify-content-center align-items-center card-tab">
-                                <button class="card-tablinks active ms-3" onclick="openArticle(event, 'News')">Buy</button>
-                                <button class="card-tablinks" onclick="openArticle(event, 'Tax')">Rent</button>
-                                <button class="card-tablinks" onclick="openArticle(event, 'Help')">PG / Co-living</button>
-                                <button class="card-tablinks" onclick="openArticle(event, 'Investment')">Commercial</button>
+                        <div class="d-flex flex-row justify-content-center align-items-center tab-container">
+                                <button class="tab-btn active ms-3" onclick="openTab(event, 'tab1')">Buy</button>
+                                <button class="tab-btn" onclick="openTab(event, 'tab2')">Rent</button>
+                                <button class="tab-btn" onclick="openTab(event, 'tab3')">PG / Co-living</button>
+                                <button class="tab-btn" onclick="openTab(event, 'tab4')">Commercial</button>
                         </div>
-                        <div class="card-tab-content">
+                        <div id="tab1" class="tab-content active pt-3">
                             <div class="row sick-slider">
                                 <div class="col-12">
                                     <div class="row">
@@ -942,17 +942,1192 @@
                                 </div>
                             </div>
                         </div>
-                        <a href="#" class="card-bottom">Read realty news, guides &amp; articles
-                        <span>
-                            <i class="fas fa-long-arrow-alt-right" style="filter: grayscale(100%);font-size:20px;"></i>
-                        </span>
-                        </a>
+                        <div id="tab2" class="tab-content pt-3">
+                            <div class="row sick-slider">
+                                <div class="col-12">
+                                    <div class="row d-flex">
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy1.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">RBI keeps repo rate unchanged</h3>
+                                                            <h6 class="small-head">june 08 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img  d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy2.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">Land rates go up in Noida</h3>
+                                                            <h6 class="small-head">Apr 24, 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img  d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy3.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">Unchanged repo rate to bear well with buyers</h3>
+                                                            <h6 class="small-head">Jun 08, 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img  d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy4.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">pmay-clss extended till December 2024</h3>
+                                                            <h6 class="small-head">Apr 21, 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy1.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">RBI keeps repo rate unchanged</h3>
+                                                            <h6 class="small-head">june 08 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img  d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy2.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">Land rates go up in Noida</h3>
+                                                            <h6 class="small-head">Apr 24, 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img  d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy3.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">Unchanged repo rate to bear well with buyers</h3>
+                                                            <h6 class="small-head">Jun 08, 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img  d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy4.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">pmay-clss extended till December 2024</h3>
+                                                            <h6 class="small-head">Apr 21, 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy1.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">RBI keeps repo rate unchanged</h3>
+                                                            <h6 class="small-head">june 08 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img  d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy2.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">Land rates go up in Noida</h3>
+                                                            <h6 class="small-head">Apr 24, 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img  d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy3.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">Unchanged repo rate to bear well with buyers</h3>
+                                                            <h6 class="small-head">Jun 08, 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img  d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy4.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">pmay-clss extended till December 2024</h3>
+                                                            <h6 class="small-head">Apr 21, 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy1.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">RBI keeps repo rate unchanged</h3>
+                                                            <h6 class="small-head">june 08 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img  d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy2.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">Land rates go up in Noida</h3>
+                                                            <h6 class="small-head">Apr 24, 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img  d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy3.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">Unchanged repo rate to bear well with buyers</h3>
+                                                            <h6 class="small-head">Jun 08, 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img  d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy4.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">pmay-clss extended till December 2024</h3>
+                                                            <h6 class="small-head">Apr 21, 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy1.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">RBI keeps repo rate unchanged</h3>
+                                                            <h6 class="small-head">june 08 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img  d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy2.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">Land rates go up in Noida</h3>
+                                                            <h6 class="small-head">Apr 24, 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img  d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy3.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">Unchanged repo rate to bear well with buyers</h3>
+                                                            <h6 class="small-head">Jun 08, 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img  d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy4.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">pmay-clss extended till December 2024</h3>
+                                                            <h6 class="small-head">Apr 21, 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab3" class="tab-content pt-3">
+                            <div class="row sick-slider">
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy1.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">RBI keeps repo rate unchanged</h3>
+                                                            <h6 class="small-head">june 08 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img  d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy2.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">Land rates go up in Noida</h3>
+                                                            <h6 class="small-head">Apr 24, 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img  d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy3.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">Unchanged repo rate to bear well with buyers</h3>
+                                                            <h6 class="small-head">Jun 08, 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img  d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy4.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">pmay-clss extended till December 2024</h3>
+                                                            <h6 class="small-head">Apr 21, 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy1.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">RBI keeps repo rate unchanged</h3>
+                                                            <h6 class="small-head">june 08 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img  d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy2.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">Land rates go up in Noida</h3>
+                                                            <h6 class="small-head">Apr 24, 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img  d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy3.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">Unchanged repo rate to bear well with buyers</h3>
+                                                            <h6 class="small-head">Jun 08, 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img  d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy4.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">pmay-clss extended till December 2024</h3>
+                                                            <h6 class="small-head">Apr 21, 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy1.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">RBI keeps repo rate unchanged</h3>
+                                                            <h6 class="small-head">june 08 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img  d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy2.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">Land rates go up in Noida</h3>
+                                                            <h6 class="small-head">Apr 24, 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img  d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy3.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">Unchanged repo rate to bear well with buyers</h3>
+                                                            <h6 class="small-head">Jun 08, 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img  d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy4.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">pmay-clss extended till December 2024</h3>
+                                                            <h6 class="small-head">Apr 21, 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy1.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">RBI keeps repo rate unchanged</h3>
+                                                            <h6 class="small-head">june 08 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img  d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy2.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">Land rates go up in Noida</h3>
+                                                            <h6 class="small-head">Apr 24, 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img  d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy3.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">Unchanged repo rate to bear well with buyers</h3>
+                                                            <h6 class="small-head">Jun 08, 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img  d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy4.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">pmay-clss extended till December 2024</h3>
+                                                            <h6 class="small-head">Apr 21, 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy1.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">RBI keeps repo rate unchanged</h3>
+                                                            <h6 class="small-head">june 08 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img  d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy2.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">Land rates go up in Noida</h3>
+                                                            <h6 class="small-head">Apr 24, 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img  d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy3.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">Unchanged repo rate to bear well with buyers</h3>
+                                                            <h6 class="small-head">Jun 08, 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img  d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy4.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">pmay-clss extended till December 2024</h3>
+                                                            <h6 class="small-head">Apr 21, 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab4" class="tab-content pt-3">
+                            <div class="row sick-slider">
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy1.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">RBI keeps repo rate unchanged</h3>
+                                                            <h6 class="small-head">june 08 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img  d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy2.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">Land rates go up in Noida</h3>
+                                                            <h6 class="small-head">Apr 24, 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img  d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy3.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">Unchanged repo rate to bear well with buyers</h3>
+                                                            <h6 class="small-head">Jun 08, 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img  d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy4.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">pmay-clss extended till December 2024</h3>
+                                                            <h6 class="small-head">Apr 21, 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy1.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">RBI keeps repo rate unchanged</h3>
+                                                            <h6 class="small-head">june 08 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img  d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy2.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">Land rates go up in Noida</h3>
+                                                            <h6 class="small-head">Apr 24, 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img  d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy3.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">Unchanged repo rate to bear well with buyers</h3>
+                                                            <h6 class="small-head">Jun 08, 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img  d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy4.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">pmay-clss extended till December 2024</h3>
+                                                            <h6 class="small-head">Apr 21, 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy1.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">RBI keeps repo rate unchanged</h3>
+                                                            <h6 class="small-head">june 08 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img  d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy2.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">Land rates go up in Noida</h3>
+                                                            <h6 class="small-head">Apr 24, 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img  d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy3.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">Unchanged repo rate to bear well with buyers</h3>
+                                                            <h6 class="small-head">Jun 08, 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img  d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy4.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">pmay-clss extended till December 2024</h3>
+                                                            <h6 class="small-head">Apr 21, 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy1.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">RBI keeps repo rate unchanged</h3>
+                                                            <h6 class="small-head">june 08 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img  d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy2.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">Land rates go up in Noida</h3>
+                                                            <h6 class="small-head">Apr 24, 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img  d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy3.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">Unchanged repo rate to bear well with buyers</h3>
+                                                            <h6 class="small-head">Jun 08, 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img  d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy4.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">pmay-clss extended till December 2024</h3>
+                                                            <h6 class="small-head">Apr 21, 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy1.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">RBI keeps repo rate unchanged</h3>
+                                                            <h6 class="small-head">june 08 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img  d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy2.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">Land rates go up in Noida</h3>
+                                                            <h6 class="small-head">Apr 24, 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img  d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy3.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">Unchanged repo rate to bear well with buyers</h3>
+                                                            <h6 class="small-head">Jun 08, 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
+                                            <div class="card-small">
+                                                <div class="row">
+                                                    <div class="col-5">
+                                                        <div class="card-small-img  d-flex flex-column justify-content-center align-items-center">
+                                                            <img src="images/buy4.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 bottom">
+                                                        <div class="d-flex flex-column justify-content-start align-items-start">
+                                                            <h2 class="small-h">pmay-clss extended till December 2024</h3>
+                                                            <h6 class="small-head">Apr 21, 2023</h6>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-start">
+                            <a href="#" class="card-bottom me-2">Read realty news, guides &amp; articles</a>
+                            <span class="d-flex align-items-center"><i class="fas fa-long-arrow-alt-right" style="filter: grayscale(100%);font-size:20px;"></i></span>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 <!-- section card-buy area end-->
+
+<!-- section residental area start -->
+<section class="residental pb-5">
+        <div class="container">
+            <h1 class="text-start">Handpicked Residential Projects</h1>
+            <p class="text-start">Featured Residential projects across India</p>
+            <div class="row residental-slider d-flex flex-nowrap justify-content-center align-items-center">
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <div class="resfeaturedProjectsCard__featuredProjectCard pageComponent fpUpgrade">
+                            <div class="resfeaturedProjectsCard__imageBox imgHover">
+                                <img class="" alt="Vertex Kingston Park" src="images/residental5.jpg">
+                                <div class="resfeaturedProjectsCard__featuredLarge">
+                                    <div variant="featuredRegular" class="fp_homepage__badges__featuredRegular">
+                                        <div>Featured</div>
+                                    </div>
+                                </div>
+                                <div class="resfeaturedProjectsCard__shortlistItem pageComponent" data-label="SHORTLIST">
+                                    <i title="star" class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="resfeaturedProjectsCard__contentBox pageComponent"></div>
+                            <img class="resfeaturedProjectsCard__iconImg"  alt="Vertex Kingston Park" src="images/residental6.jpg">
+                            <div class="resfeaturedProjectsCard__contentText pageComponent">
+                                <a href="#"  target="_blank">
+                                    <div class="list_header_bold spacer8 f16">Prajapati Ornate</div>
+                                </a>
+                                <div class="input_placeholder_inactive_resFP spacer16 f14">2,3 BHK Apartment, Panvel, Navi Mumbai</div>
+                                <div class="list_header_semiBold f16">₹ 1.29 Cr</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <div class="resfeaturedProjectsCard__featuredProjectCard pageComponent fpUpgrade">
+                            <div class="resfeaturedProjectsCard__imageBox imgHover">
+                                <img class="" alt="Vertex Kingston Park" src="images/residental1.jpg">
+                                <div class="resfeaturedProjectsCard__featuredLarge">
+                                    <div variant="featuredRegular" class="fp_homepage__badges__featuredRegular">
+                                        <div>Featured</div>
+                                    </div>
+                                </div>
+                                <div class="resfeaturedProjectsCard__shortlistItem pageComponent" data-label="SHORTLIST">
+                                    <i title="star" class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="resfeaturedProjectsCard__contentBox pageComponent"></div>
+                            <img class="resfeaturedProjectsCard__iconImg"  alt="Vertex Kingston Park" src="images/residental2.png">
+                            <div class="resfeaturedProjectsCard__contentText pageComponent">
+                                <a href="#"  target="_blank">
+                                    <div class="list_header_bold spacer8 f16">Vertex Kingston Park</div>
+                                </a>
+                                <div class="input_placeholder_inactive_resFP spacer16 f14">4,5 BHK Independent House/Villa, Gachibowli, Hyderabad</div>
+                                <div class="list_header_semiBold f16">Price On Request </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 ps-4">
+                        <div class="resfeaturedProjectsCard__featuredProjectCard pageComponent fpUpgrade">
+                            <div class="resfeaturedProjectsCard__imageBox imgHover">
+                                <img class="" alt="Vertex Kingston Park" src="images/residental3.jpg">
+                                <div class="resfeaturedProjectsCard__featuredLarge">
+                                    <div variant="featuredRegular" class="fp_homepage__badges__featuredRegular">
+                                        <div>Featured</div>
+                                    </div>
+                                </div>
+                                <div class="resfeaturedProjectsCard__shortlistItem pageComponent" data-label="SHORTLIST">
+                                    <i title="star" class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="resfeaturedProjectsCard__contentBox pageComponent"></div>
+                            <img class="resfeaturedProjectsCard__iconImg"  alt="Vertex Kingston Park" src="images/residental4.jpg">
+                            <div class="resfeaturedProjectsCard__contentText pageComponent">
+                                <a href="#"  target="_blank">
+                                    <div class="list_header_bold spacer8 f16">Central park The Orchard
+                                    </div>
+                                </a>
+                                <div class="input_placeholder_inactive_resFP spacer16 f14">3,4 BHK Apartment, Sohna, Gurgaon</div>
+                                <div class="list_header_semiBold f16">₹ 3.75 Cr</div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+<!-- section residntal area end -->
     
 <?php include('footer.php'); ?>
 
@@ -960,62 +2135,51 @@
 <!-- our js area -->
 
 <script type="text/javascript">
-        function modify(){
-         document.getElementById("none").style.display="none";
-        }
-        function removeHandler(){
-         document.getElementById("Display").style.display="none";
-        }
+        // const sliderContainer = document.getElementById("slider-container");
+        // const slides = Array.from(document.getElementsByClassName("slide"));
 
-        function openCity(evt, cityName) {
-        var i, tabcontent, tablinks;
-        tabcontent = document.getElementsByClassName("tabcontent");
-        for (i = 0; i < tabcontent.length; i++) {
-            tabcontent[i].style.display = "none";
-        }
-        tablinks = document.getElementsByClassName("tablinks");
-        for (i = 0; i < tablinks.length; i++) {
-            tablinks[i].className = tablinks[i].className.replace(" active", "");
-        }
-        document.getElementById(cityName).style.display = "block";
-        evt.currentTarget.className += " active";
-        }
+        // let currentSlideIndex = 0;
 
-        const sliderContainer = document.getElementById("slider-container");
-        const slides = Array.from(document.getElementsByClassName("slide"));
+        // // Show initial slide
+        // slides[currentSlideIndex].classList.add("active");
 
-        let currentSlideIndex = 0;
+        // // Function to transition to the next slide
+        // function nextSlide() {
+        // slides[currentSlideIndex].classList.remove("active");
+        // currentSlideIndex = (currentSlideIndex + 1) % slides.length;
+        // slides[currentSlideIndex].classList.add("active");
+        // }
 
-        // Show initial slide
-        slides[currentSlideIndex].classList.add("active");
-
-        // Function to transition to the next slide
-        function nextSlide() {
-        slides[currentSlideIndex].classList.remove("active");
-        currentSlideIndex = (currentSlideIndex + 1) % slides.length;
-        slides[currentSlideIndex].classList.add("active");
-        }
-
-        // Set an interval to automatically transition slides
-        setInterval(nextSlide, 3000);
+        // // Set an interval to automatically transition slides
+        // setInterval(nextSlide, 3000);
 </script>
 
 <script>
-function openArticle(evt, articleName) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("card-tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
+function openTab(event, tabId) {
+  // Hide all tab content
+  const tabContents = document.getElementsByClassName("tab-content");
+  for (let i = 0; i < tabContents.length; i++) {
+    tabContents[i].style.display = "none";
   }
-  tablinks = document.getElementsByClassName("card-tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
+
+  // Deactivate all tab buttons
+  const tabBtns = document.getElementsByClassName("tab-btn");
+  for (let i = 0; i < tabBtns.length; i++) {
+    tabBtns[i].classList.remove("active");
   }
-  document.getElementById(articleName).style.display = "block";
-  evt.currentTarget.className += " active";
+
+  // Show the selected tab content
+  document.getElementById(tabId).style.display = "block";
+
+  // Activate the clicked tab button
+  event.currentTarget.classList.add("active");
 }
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
+
+// Set the first tab as active by default
+document.getElementById("tab1").style.display = "block";
+document.getElementById("tab5").style.display = "block";
+document.getElementById("tab12").style.display = "block";
+document.getElementsByClassName("tab-btn")[0].classList.add("active");
 </script>
 
 <!-- boostrap bundel -->
@@ -1111,7 +2275,7 @@ document.getElementById("defaultOpen").click();
   ]
 });
   </script>
-    <script type="text/javascript">
+  <script type="text/javascript">
     $('.sick-slider').slick({
   dots: true,
   infinite:true,
@@ -1122,8 +2286,8 @@ document.getElementById("defaultOpen").click();
     {
       breakpoint: 1024,
       settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToShow: 1,
+        slidesToScroll: 1,
         infinite: true,
         dots: true
       }
@@ -1131,8 +2295,45 @@ document.getElementById("defaultOpen").click();
     {
       breakpoint: 600,
       settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+  </script>
+   <script type="text/javascript">
+    $('.residental-slider').slick({
+  dots: true,
+  infinite:true,
+  speed: 300,
+  slidesToShow: 2,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
         slidesToShow: 2,
-        slidesToScroll: 2
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
       }
     },
     {
