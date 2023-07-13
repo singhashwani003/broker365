@@ -203,7 +203,7 @@
                                                     <i class="fas fa-search icon_search"></i>
                                                     <div class="component__DeskSfInput">
                                                         <input type="text" name="keyword" class="component__searchInput" onclick="removeHandler()" id="keyword2" autocomplete="off" value="">
-                                                        <div class="component__suggest" id="Display" ></div>
+                                                        <div class="component__suggest" id="display" ></div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -389,7 +389,7 @@
     <div class="container insight-tool">
         <div class="d-flex justify-content-between align-items-center">
             <div class="d-flex justify-content-between align-items-center">
-            <img src="images/9.png" style="width:64px; height:64px;">
+                <img src="images/9.png" style="width:64px; height:64px;">
             <div>
                 <h3 class="title_l_bold mb-0 mt-3" id="MORE_INSIGHTS_AND_UTILITIES_HEADING">
                     <div class="ellipsis2Lines">Insights &amp; Tools</div>
@@ -403,7 +403,7 @@
                 </button>
             </div>
         </div>
-    <div class="row slide d-flex justify-content-around align-items-center mt-4 pt-2">
+    <div class="row sliding d-flex justify-content-around align-items-center mt-4 pt-2">
                      <div class="col-sm-12 col-md-6 col-xl-3 col-lg-3 ms-3">
                         <div class="card card-pref">
                             <div class="card-body p-0 d-flex flex-column justify-content-center align-items-center">
@@ -4558,7 +4558,7 @@
             <div class="os__cardWrap mt-3">
                 <div class="pageComponent card__ourServicesCard undefined null">
                     <div class="spacer32">
-                        <img src="images/d_hp_owner_assist_benefits.webp" title="99acres" decoding="auto" style="animation-name: gracefulimage; animation-duration: 0.3s; animation-iteration-count: 1; animation-timing-function: ease-in;">
+                        <img src="images/d_hp_owner_assist_benefits.webp" title="broker365" decoding="auto" style="animation-name: gracefulimage; animation-duration: 0.3s; animation-iteration-count: 1; animation-timing-function: ease-in;">
                     </div>
                     <div>
                         <a href="#" class="title_semiBold Ng800 spacer8 mt-5">Get assistance in selling faster</a>
@@ -5070,10 +5070,10 @@
     <div class="container">
         <h6 class="text-center">COMMERCIAL SPACES</h6>
         <h1 class="text-center">Choose from a wide variety of <br>commercial properties</h1>
-        <div class="row d-flex justify-content-center align-items-center mt-5 px-5">
+        <div class="row d-flex justify-content-center align-items-center mt-5">
             <div class="col-md-6 col-xl-6 col-lg-6 col-sm-12">
                 <div  class="pageComponent CardCspaces__commercialCard imgHover">
-                    <img src="images/d_hp_com_buy_xl.webp" alt="Buying commercial spaces" title="99acres" decoding="auto" style="animation-name: gracefulimage; animation-duration: 0.3s; animation-iteration-count: 1; animation-timing-function: ease-in;">
+                    <img src="images/d_hp_com_buy_xl.webp" alt="Buying commercial spaces" title="broker365" decoding="auto" style="animation-name: gracefulimage; animation-duration: 0.3s; animation-iteration-count: 1; animation-timing-function: ease-in;">
                     <div class="CardCspaces__grad undefined"></div>
                     <div class="spacer32"></div>
                     <div class="CardCspaces__infoText mt-5">
@@ -5084,9 +5084,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-xl-6 col-lg-6 col-sm-12 ps-5">
+            <div class="col-md-6 col-xl-6 col-lg-6 col-sm-12">
                 <div  class="pageComponent CardCspaces__commercialCard imgHover">
-                    <img src="images/d_hp_com_lease_xl.webp" alt="Buying commercial spaces" title="99acres" decoding="auto" style="animation-name: gracefulimage; animation-duration: 0.3s; animation-iteration-count: 1; animation-timing-function: ease-in;">
+                    <img src="images/d_hp_com_lease_xl.webp" alt="Buying commercial spaces" title="broker365" decoding="auto" style="animation-name: gracefulimage; animation-duration: 0.3s; animation-iteration-count: 1; animation-timing-function: ease-in;">
                     <div class="CardCspaces__grad undefined box-shadow"></div>
                     <div class="spacer32"></div>
                     <div class="CardCspaces__infoText mt-5">
@@ -5100,13 +5100,220 @@
         </div>
     </div>
 </section>
+<!-- section two cards area end -->
+
+<!-- section banner-card area start -->
+<section class="residentals py-5">
+    <div class="container">
+            <div class="pageComponent undefined">
+            <div class="title_l_bold Ng800 spacer4">99acres exclusive</div>
+            <div class="caption_strong_large spacer8 mt-1">Sponsored projects and events</div>
+            <div class="spacer8"></div>
+            <div class="row mt-3">
+                <div class="col-md-6 col-sm-12 col-xl-4 col-lg-4">
+                    <div class="card">
+                        <img src="images/b1.jpg" style="width:100%; height:auto;border-radius: 10px;">
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 col-xl-4 col-lg-4">
+                    <div class="card">
+                        <img src="images/b2.gif" style="width:100%; height:auto;border-radius: 10px;">
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 col-xl-4 col-lg-4">
+                    <div class="card">
+                        <img src="images/b3.gif" style="width:100%; height:auto;border-radius: 10px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- section banner-card area end -->
+
 <!-- section two cards area start -->
+<section class="why-choose" style="padding: 2rem 12rem;">
+    <div class="container">
+        <h6 class="text-center">BENEFITS OF BROKER365</h6>
+        <h1 class="text-center">Why choose broker365</h1>
+        <div class="row d-flex justify-content-center align-items-center mt-5">
+            <div class="col-md-6 col-xl-4 col-lg-4 col-sm-12 ps-5">
+                <div class="boxing"><i class="fas fa-phone text-primary"></i></div>
+                <div class="title_semiBold Ng800 spacer10">
+                    <span class="hyperlinks_large" style="cursor: auto;">01. </span>  Over 12 Lac properties</div>  
+                <div class="body_large Ng400">10,000+ properties are added every day</div>
+            </div>
+            <div class="col-md-6 col-xl-4 col-lg-4 col-sm-12 ps-5">
+                <div class="boxing"><i class="fas fa-home text-primary"></i></div>
+                <div class="title_semiBold Ng800 spacer10">
+                    <span class="hyperlinks_large" style="cursor: auto;">02. </span>  Verification by broker365 team</div>  
+                <div class="body_large Ng400">Photos / Videos and other details are verified on location</div>
+            </div>
+            <div class="col-md-6 col-xl-4 col-lg-4 col-sm-12 ps-5">
+                <div class="boxing"><i class="fas fa-user text-primary"></i></div>
+                <div class="title_semiBold Ng800 spacer10">
+                    <span class="hyperlinks_large" style="cursor: auto;">03. </span>  Large user base</div>  
+                <div class="body_large Ng400">High active user count and user engagement to find and close deals</div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- section two cards area start -->
+
+<!-- section testimonial area start -->
+<section class="testimonial mt-5">
+    <div class="container">
+        <h6 class="text-start">TESTIMONIALS</h6>
+        <h1 class="text-start">What our customers are <br> saying about broker365</h1>
+        <p class="text-start">Hear from our satisfied buyers, tenants, owners and dealers</p>
+        <div class="row testimonial-slider">
+            <div class="col-md-6 col-xl-6 col-lg-6 col-sm-12">
+                <div class="pageComponent" style="display: inline-block;">
+                    <div class="testimonialCard__feedbackBox">
+                        <div class="d-flex">
+                            <div class="testimonialCard__imgWrap" style="border: 1px solid rgb(235, 236, 240);">
+                            <img src="images/169.jpg" alt="Srikanth Malleboina" title="broker365" decoding="auto" style="animation-name: gracefulimage; animation-duration: 0.3s; animation-iteration-count: 1; animation-timing-function: ease-in;">
+                            </div>
+                            <div class="ms-3">
+                                <div class="section_header_semiBold spacer2 ">Srikanth Malleboina</div>
+                                <div class="caption_strong_medium spacer8 ">Owner, Hyderabad</div>
+                            </div>
+                        </div>
+                        <div class="body_large mt-3">You get an exclusive RM from broker365 team who tracks your property closely</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xl-6 col-lg-6 col-sm-12">
+                <div class="pageComponent" style="display: inline-block;">
+                    <div class="testimonialCard__feedbackBox">
+                        <div class="d-flex">
+                            <div class="testimonialCard__imgWrap" style="border: 1px solid rgb(235, 236, 240);">
+                            <img src="images/89.jpg" alt="Srikanth Malleboina" title="broker365" decoding="auto" style="animation-name: gracefulimage; animation-duration: 0.3s; animation-iteration-count: 1; animation-timing-function: ease-in;">
+                            </div>
+                            <div class="ms-3">
+                                <div class="section_header_semiBold spacer2 ">Srikanth Malleboina</div>
+                                <div class="caption_strong_medium spacer8 ">Owner, Hyderabad</div>
+                            </div>
+                        </div>
+                        <div class="body_large mt-3">You get an exclusive RM from broker365 team who tracks your property closely</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xl-6 col-lg-6 col-sm-12">
+                <div class="pageComponent" style="display: inline-block;">
+                    <div class="testimonialCard__feedbackBox">
+                        <div class="d-flex">
+                            <div class="testimonialCard__imgWrap" style="border: 1px solid rgb(235, 236, 240);">
+                            <img src="images/95.jpg" alt="Srikanth Malleboina" title="broker365" decoding="auto" style="animation-name: gracefulimage; animation-duration: 0.3s; animation-iteration-count: 1; animation-timing-function: ease-in;">
+                            </div>
+                            <div class="ms-3">
+                                <div class="section_header_semiBold spacer2 ">Srikanth Malleboina</div>
+                                <div class="caption_strong_medium spacer8 ">Owner, Hyderabad</div>
+                            </div>
+                        </div>
+                        <div class="body_large mt-3">You get an exclusive RM from broker365 team who tracks your property closely</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xl-6 col-lg-6 col-sm-12">
+                <div class="pageComponent" style="display: inline-block;">
+                    <div class="testimonialCard__feedbackBox">
+                        <div class="d-flex">
+                            <div class="testimonialCard__imgWrap" style="border: 1px solid rgb(235, 236, 240);">
+                            <img src="images/99.jpg" alt="Srikanth Malleboina" title="broker365" decoding="auto" style="animation-name: gracefulimage; animation-duration: 0.3s; animation-iteration-count: 1; animation-timing-function: ease-in;">
+                            </div>
+                            <div class="ms-3">
+                                <div class="section_header_semiBold spacer2 ">Srikanth Malleboina</div>
+                                <div class="caption_strong_medium spacer8 ">Owner, Hyderabad</div>
+                            </div>
+                        </div>
+                        <div class="body_large mt-3">You get an exclusive RM from broker365 team who tracks your property closely</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xl-6 col-lg-6 col-sm-12">
+                <div class="pageComponent" style="display: inline-block;">
+                    <div class="testimonialCard__feedbackBox">
+                        <div class="d-flex">
+                            <div class="testimonialCard__imgWrap" style="border: 1px solid rgb(235, 236, 240);">
+                            <img src="images/101.jpg" alt="Srikanth Malleboina" title="broker365" decoding="auto" style="animation-name: gracefulimage; animation-duration: 0.3s; animation-iteration-count: 1; animation-timing-function: ease-in;">
+                            </div>
+                            <div class="ms-3">
+                                <div class="section_header_semiBold spacer2 ">Srikanth Malleboina</div>
+                                <div class="caption_strong_medium spacer8 ">Owner, Hyderabad</div>
+                            </div>
+                        </div>
+                        <div class="body_large mt-3">You get an exclusive RM from broker365 team who tracks your property closely</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xl-6 col-lg-6 col-sm-12">
+                <div class="pageComponent" style="display: inline-block;">
+                    <div class="testimonialCard__feedbackBox">
+                        <div class="d-flex">
+                            <div class="testimonialCard__imgWrap" style="border: 1px solid rgb(235, 236, 240);">
+                            <img src="images/108.jpg" alt="Srikanth Malleboina" title="broker365" decoding="auto" style="animation-name: gracefulimage; animation-duration: 0.3s; animation-iteration-count: 1; animation-timing-function: ease-in;">
+                            </div>
+                            <div class="ms-3">
+                                <div class="section_header_semiBold spacer2 ">Srikanth Malleboina</div>
+                                <div class="caption_strong_medium spacer8 ">Owner, Hyderabad</div>
+                            </div>
+                        </div>
+                        <div class="body_large mt-3">You get an exclusive RM from broker365 team who tracks your property closely</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xl-6 col-lg-6 col-sm-12">
+                <div class="pageComponent" style="display: inline-block;">
+                    <div class="testimonialCard__feedbackBox">
+                        <div class="d-flex">
+                            <div class="testimonialCard__imgWrap" style="border: 1px solid rgb(235, 236, 240);">
+                            <img src="images/116.jpg" alt="Srikanth Malleboina" title="broker365" decoding="auto" style="animation-name: gracefulimage; animation-duration: 0.3s; animation-iteration-count: 1; animation-timing-function: ease-in;">
+                            </div>
+                            <div class="ms-3">
+                                <div class="section_header_semiBold spacer2 ">Srikanth Malleboina</div>
+                                <div class="caption_strong_medium spacer8 ">Owner, Hyderabad</div>
+                            </div>
+                        </div>
+                        <div class="body_large mt-3">You get an exclusive RM from broker365 team who tracks your property closely</div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <div class="d-flex align-items-center justify-content-start">
+            <a href="#" class="card-bottom me-2">View all testimonials </a>
+            <span class="d-flex align-items-center"><i class="fas fa-long-arrow-alt-right" style="filter: grayscale(100%);font-size:20px;"></i></span>
+        </div>
+    </div>
+</section>
+<!-- section testimonial area start -->
+
+<!-- section add area start -->
+<section class="addArea">
+    <div class="container">
+        <div class="row d-flex align-items-center justify-content-start">
+            <div class="col-md-12 col-xl-12 col-lg-12 col-sm-12 ps-0">
+                <img src="images/b4.webp" style="width: 100%; height: 291px;border-radius:10px;">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- section add area start -->
+
+<!-- footer area start -->
 <?php include('footer.php'); ?>
+<!-- footer area end  -->
 
 
 <!-- our js area -->
 
 <script type="text/javascript">
+    function removeHandler(){
+    var searchBar = document.getElementById("Display");
+    var remove = document.getElementById("display");
+    searchBar.style.display = "none";
+    remove.style.display = "none";
+}
         // const sliderContainer = document.getElementById("slider-container");
         // const slides = Array.from(document.getElementsByClassName("slide"));
 
@@ -5211,7 +5418,7 @@ document.getElementsByClassName("tab-btn")[0].classList.add("active");
 });
   </script>
   <script type="text/javascript">
-    $('.slide').slick({
+    $('.sliding').slick({
   dots: true,
   infinite:true,
   speed: 300,
@@ -5305,6 +5512,43 @@ document.getElementsByClassName("tab-btn")[0].classList.add("active");
       breakpoint: 600,
       settings: {
         slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+  </script>
+   <script type="text/javascript">
+    $('.testimonial-slider').slick({
+  dots: true,
+  infinite:true,
+  speed: 300,
+  slidesToShow: 2,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
         slidesToScroll: 1
       }
     },
