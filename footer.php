@@ -1,8 +1,8 @@
 <!-- footer area start -->
 <section class="footer">
-    <div class="container px-5">
+    <div class="container px-5 px">
         <div class="row">
-            <div class="col-md-6 col-sm-12 col-xl-2 col-lg-2">
+            <div class="col-md-6 col-sm-12 col-xl-2 col-lg-2 mt1">
                 <div class="d-flex flex-column justify-content-start align-item-start">
                     <a href="#" class="footer-active text-light mt-3">broker365</a>
                     <a href="#" class="footer-content text-light mt-3">Mobile Apps</a>
@@ -17,7 +17,7 @@
                     <a href="#" class="footer-content text-light mt-3">Sitemap</a>
                 </div>
             </div>
-            <div class="col-md-6 col-sm-12 col-xl-2 col-lg-2">
+            <div class="col-md-6 col-sm-12 col-xl-2 col-lg-2 mt1">
                 <div class="d-flex flex-column justify-content-start align-item-start">
                     <a href="#" class="footer-active text-light mt-3">Company</a>
                     <a href="#" class="footer-content text-light mt-3">About us</a>
@@ -34,7 +34,7 @@
                     <a href="#" class="footer-content text-light mt-3">Safety Guide</a>
                 </div>
             </div>
-            <div class="col-md-6 col-sm-12 col-xl-2 col-lg-2">
+            <div class="col-md-6 col-sm-12 col-xl-2 col-lg-2 mt1">
                 <div class="d-flex flex-column justify-content-start align-item-start">
                     <a href="#" class="footer-active text-light mt-3">Our Partners</a>
                     <a href="#" class="footer-content text-light mt-3">Naukri.com - Jobs in India</a>
@@ -51,23 +51,23 @@
                     <a href="#" class="footer-content text-light mt-3">Techminis.com - Tech news on the go</a>
                 </div>
             </div>
-            <div class="col-1"></div>
-            <div class="col-md-6 col-sm-12 col-xl-4 col-lg-4">
+            <div class="col-1 mt1"></div>
+            <div class="col-md-6 col-sm-12 col-xl-4 col-lg-4 mt1">
                 <div class="d-flex flex-column justify-content-start align-item-start">
                         <a href="#" class="footer-active text-light mt-3">Contact Us</a>
                         <div class="footer-div mt-3 mb-3">Toll Free - 1800 41 99099 <br><span class="footer-span">Monday - Saturday (9:00AM to 11:00PM IST)</span></div>
                         <div class="footer-div">Email - feedback@99acres.com </div>
                         <a href="#" class="footer-active text-light mt-3">Connect with us</a>
                         <div class="footer-icon d-flex flex-row  pt-4 mb-4">
-                            <i class="fas fa-facebook text-light" style="font-size:20px;"></i>
+                            <i class="fa fa-facebook-f text-light" style="font-size:20px;"></i>
                             <i class="fas fa-youtube text-light ps-4" style="font-size:20px;"></i>
                             <i class="fas fa-twitter text-light ps-4" style="font-size:20px;"></i>
                             <i class="fas fa-instagram text-light ps-4" style="font-size:20px;"></i>
                         </div>
                         <a href="#" class="footer-active text-light mt-2 mb-2">Download the App</a>
                         <div class="footer-img d-flex flex-row mt-3">
-                            <img src="images/play.png" alt="" style="width:100%; height:50px; max-width:160px;">
-                            <img src="images/ios.png" class="ms-3" alt="" style="width:100%; height:50px; max-width:160px;">
+                            <img src="images/play.png" class="max" alt="" style="width:100%; height:50px; max-width:160px;">
+                            <img src="images/ios.png" class="max ms-3" alt="" style="width:100%; height:50px; max-width:160px;">
                         </div>
                         <small class="footer-small mt-1">Usage of 99acres.com to upload content showing area in non standard units or which enables targeting by religion/community/caste/race is prohibited. Please report inappropriate content by writing to us at <span class="text-primary">report abuse</span></small>
                         <div class="footer-text">All trademarks are the property of their <br>respective owners. <br> All rights reserved - Info Edge (India) Ltd. <br>A naukri.com group venture

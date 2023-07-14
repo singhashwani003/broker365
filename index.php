@@ -315,6 +315,23 @@
                             </div>
                         </div>
                     </div>
+                    <div class="search-tab1">
+                        <form>
+                            <div class="input-group">
+                                <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="Search here....">
+                                <button class="btn btn-primary font-weight-large dropdown-toggle search-drop" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Search</button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Buy</a>
+                                    <div role="separator" class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Rent</a>
+                                    <div role="separator" class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Plots/Land</a>
+                                    <div role="separator" class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">PG / Co-living</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
                 </section>
 <!-- section area SearchBox end-->
 
@@ -387,9 +404,9 @@
 <!-- section tool area start-->
 <section class="tool">
     <div class="container insight-tool">
-        <div class="d-flex justify-content-between align-items-center">
+        <div class="d-flex justify-content-between align-items-center p-0">
             <div class="d-flex justify-content-between align-items-center">
-                <img src="images/9.png" style="width:64px; height:64px;">
+                <img src="images/9.png" style="width:64px; height:64px;" class="tool-img">
             <div>
                 <h3 class="title_l_bold mb-0 mt-3" id="MORE_INSIGHTS_AND_UTILITIES_HEADING">
                     <div class="ellipsis2Lines">Insights &amp; Tools</div>
@@ -543,17 +560,17 @@
 
 <!-- section card-buy area end-->
     <section class="card-buy mt-5 mb-5 pt-5">
-        <div class="container card-insight pt-5">
+        <div class="container card-insight pt-5 pt">
                 <h6 class="text-center mb-0 pb-0">ALL PROPERTY NEEDS - ONE PORTAL</h6>
                 <h1 class="text-center mt-2 pt-0">Find Better Places to Live, Work <br> and Wonder...</h1>
-            <div class="row d-flex justify-content-between align-items-start mt-5">
+            <div class="row d-flex justify-content-between align-items-start mt-5 pt">
                 <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-3">
                     <div class="card-image zoom-hover">
                         <img src="images/d_hp_buy_xl.webp" style="width:100%; height:auto;">
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 ps-5 pt-5 mt-5">
-                    <div class="d-flex flex-column justify-content-start align-items-start ps-5">
+                <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 ps-5 pt-5 mt-5 pt ps">
+                    <div class="d-flex flex-column justify-content-start align-items-start ps-5 ps1">
                         <h6 class="text-start">BUY A HOME</h6>
                         <h2 class="text-start">Find, Buy & Own Your<br> Dream Home</h3>
                         <p class="text-start">Explore from Apartments, land, builder floors,<br> villas and more</p>
@@ -2130,7 +2147,7 @@
 <!-- section residntal area end -->
 
 <!-- section resdentals area start -->
-    <section class="residentals pb-5">
+    <section class="residentals pb-5 pb">
         <div class="container">
             <h1 class="text-start">Upcoming Projects</h1>
             <p class="text-start">Visit these projects and get early bird benefits</p>
@@ -2249,8 +2266,8 @@
                         <img src="images/s1.webp" style="width:100%; height:auto;">
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 ps-5 pt-5 mt-5">
-                    <div class="d-flex flex-column justify-content-start align-items-start ps-5">
+                <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 ps-5 pt-5 mt-5 pt ps">
+                    <div class="d-flex flex-column justify-content-start align-items-start ps-5 ps1">
                         <h6 class="text-start">RENT A HOME</h6>
                         <h2 class="text-start">Rental Homes for <br> Everyone</h3>
                         <p class="text-start">Explore from Apartments, land, builder floors,<br> villas and more</p>
@@ -3751,8 +3768,8 @@
                         <img src="images/s4.webp" style="width:100%; height:auto;">
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 ps-5 pt-5 mt-5">
-                    <div class="d-flex flex-column justify-content-start align-items-start ps-5">
+                <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 ps-5 pt-5 mt-5 pt ps">
+                    <div class="d-flex flex-column justify-content-start align-items-start ps-5 ps1">
                         <h6 class="text-start">BUY PLOTS/LAND</h6>
                         <h2 class="text-start">Residential & <br> Commercial Plots/Land</h3>
                         <p class="text-start">Explore from Apartments, land, builder floors,<br> villas and more</p>
@@ -4145,7 +4162,7 @@
 <!-- section card-buy area end-->
 
 <!-- section card-buy area end-->
-<section class="card-buy">
+<section class="card-buy owner">
         <div class="container card-insight">
                 <h6 class="text-center mb-0 pb-0">ARE YOU AN OWNER?</h6>
                 <h1 class="text-center mt-2 pt-0">Sell or Rent your property faster <br> with broker365</h1>
@@ -4155,8 +4172,8 @@
                         <img src="images/s3.webp" style="width:100%; height:auto;">
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 ps-5 pt-5 mt-5">
-                    <div class="d-flex flex-column justify-content-start align-items-start ps-5">
+                <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 ps-5 pt-5 mt-5 pt ps">
+                    <div class="d-flex flex-column justify-content-start align-items-start ps-5 ps1">
                         <h6 class="text-start">POST YOUR PROPERTY</h6>
                         <h2 class="text-start">Register to post your <br> property for</h3>
                         <p class="text-start">Sell or rent your residential/ commercial <br> property</p>
@@ -4585,8 +4602,8 @@
                         <img src="images/s6.webp" style="width:100%; height:auto;">
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 ps-5 pt-5 mt-5">
-                    <div class="d-flex flex-column justify-content-start align-items-start ps-5">
+                <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 ps-5 pt-5 mt-5 pt ps">
+                    <div class="d-flex flex-column justify-content-start align-items-start ps-5 ps1">
                         <h6 class="text-start">RENT A PG/ CO-LIVING</h6>
                         <h2 class="text-start">Paying Guest or Co-living  <br> options</h3>
                         <p class="text-start">Explore shared and private rooms in all top  <br> cities of india</p>
@@ -5066,11 +5083,11 @@
 <!-- section cities end -->
 
 <!-- section two cards area start -->
-<section class="card-buy pt-5 mt-5">
+<section class="card-buy owner pt-5 mt-5">
     <div class="container">
         <h6 class="text-center">COMMERCIAL SPACES</h6>
         <h1 class="text-center">Choose from a wide variety of <br>commercial properties</h1>
-        <div class="row d-flex justify-content-center align-items-center mt-5">
+        <div class="row d-flex justify-content-center align-items-center mt-5 mt1">
             <div class="col-md-6 col-xl-6 col-lg-6 col-sm-12">
                 <div  class="pageComponent CardCspaces__commercialCard imgHover">
                     <img src="images/d_hp_com_buy_xl.webp" alt="Buying commercial spaces" title="broker365" decoding="auto" style="animation-name: gracefulimage; animation-duration: 0.3s; animation-iteration-count: 1; animation-timing-function: ease-in;">
@@ -5084,7 +5101,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-xl-6 col-lg-6 col-sm-12">
+            <div class="col-md-6 col-xl-6 col-lg-6 col-sm-12 mt1">
                 <div  class="pageComponent CardCspaces__commercialCard imgHover">
                     <img src="images/d_hp_com_lease_xl.webp" alt="Buying commercial spaces" title="broker365" decoding="auto" style="animation-name: gracefulimage; animation-duration: 0.3s; animation-iteration-count: 1; animation-timing-function: ease-in;">
                     <div class="CardCspaces__grad undefined box-shadow"></div>
@@ -5103,24 +5120,24 @@
 <!-- section two cards area end -->
 
 <!-- section banner-card area start -->
-<section class="residentals py-5">
+<section class="residentals py-5 mt1">
     <div class="container">
             <div class="pageComponent undefined">
             <div class="title_l_bold Ng800 spacer4">99acres exclusive</div>
             <div class="caption_strong_large spacer8 mt-1">Sponsored projects and events</div>
             <div class="spacer8"></div>
             <div class="row mt-3">
-                <div class="col-md-6 col-sm-12 col-xl-4 col-lg-4">
+                <div class="col-md-6 col-sm-12 col-xl-4 col-lg-4 mt1">
                     <div class="card">
                         <img src="images/b1.jpg" style="width:100%; height:auto;border-radius: 10px;">
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-12 col-xl-4 col-lg-4">
+                <div class="col-md-6 col-sm-12 col-xl-4 col-lg-4 mt1">
                     <div class="card">
                         <img src="images/b2.gif" style="width:100%; height:auto;border-radius: 10px;">
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-12 col-xl-4 col-lg-4">
+                <div class="col-md-6 col-sm-12 col-xl-4 col-lg-4 mt1">
                     <div class="card">
                         <img src="images/b3.gif" style="width:100%; height:auto;border-radius: 10px;">
                     </div>
@@ -5136,20 +5153,20 @@
     <div class="container">
         <h6 class="text-center">BENEFITS OF BROKER365</h6>
         <h1 class="text-center">Why choose broker365</h1>
-        <div class="row d-flex justify-content-center align-items-center mt-5">
-            <div class="col-md-6 col-xl-4 col-lg-4 col-sm-12 ps-5">
+        <div class="row d-flex justify-content-center align-items-center mt-5 pt">
+            <div class="col-md-6 col-xl-4 col-lg-4 col-sm-12 ps-5 mt1">
                 <div class="boxing"><i class="fas fa-phone text-primary"></i></div>
                 <div class="title_semiBold Ng800 spacer10">
                     <span class="hyperlinks_large" style="cursor: auto;">01. </span>  Over 12 Lac properties</div>  
                 <div class="body_large Ng400">10,000+ properties are added every day</div>
             </div>
-            <div class="col-md-6 col-xl-4 col-lg-4 col-sm-12 ps-5">
+            <div class="col-md-6 col-xl-4 col-lg-4 col-sm-12 ps-5 mt1">
                 <div class="boxing"><i class="fas fa-home text-primary"></i></div>
                 <div class="title_semiBold Ng800 spacer10">
                     <span class="hyperlinks_large" style="cursor: auto;">02. </span>  Verification by broker365 team</div>  
                 <div class="body_large Ng400">Photos / Videos and other details are verified on location</div>
             </div>
-            <div class="col-md-6 col-xl-4 col-lg-4 col-sm-12 ps-5">
+            <div class="col-md-6 col-xl-4 col-lg-4 col-sm-12 ps-5 mt1">
                 <div class="boxing"><i class="fas fa-user text-primary"></i></div>
                 <div class="title_semiBold Ng800 spacer10">
                     <span class="hyperlinks_large" style="cursor: auto;">03. </span>  Large user base</div>  
@@ -5292,7 +5309,7 @@
 <section class="addArea">
     <div class="container">
         <div class="row d-flex align-items-center justify-content-start">
-            <div class="col-md-12 col-xl-12 col-lg-12 col-sm-12 ps-0">
+            <div class="col-md-12 col-xl-12 col-lg-12 col-sm-12 ps-0 area">
                 <img src="images/b4.webp" style="width: 100%; height: 291px;border-radius:10px;">
             </div>
         </div>
