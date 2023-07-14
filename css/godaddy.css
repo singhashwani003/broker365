@@ -409,7 +409,7 @@ img {
     width:100%;
 }
 .search-tab1{
-    display: none;
+    display: none!important;
     position: relative;
     /* overflow: hidden; */
     display: flex;
@@ -2392,7 +2392,7 @@ border: none;
     display: none!important;
 }
 .search-tab1{
-    display: block;
+    display: block!important;
 }
 .SearchBox {
     width: max-content;
