@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
         <!-- external css -->
-        <link rel="stylesheet" href="css/godaddy.css?ver=54"/>
+        <link rel="stylesheet" href="css/godaddy.css?ver=79"/>
 
         <!-- title -->
         <title>brokers365</title>
@@ -29,7 +29,7 @@
     <!-- header Area Started -->
      <nav class="navbar navbar-expand-sm navbar-dark my-0 py-0 sticky-top">
         <div class="container-fluid header mb-0">
-            <a class="navbar-brand" href="javascript:void(0)">
+            <a class="navbar-brand" href="index.php">
                 <h1 class="logo mb-0">brokers365</h1>
             </a>
             <li class="nav-item theader__arrowIcn">
@@ -47,7 +47,7 @@
                             <button class="tab-btn" onclick="openTab(event, 'tab12')" style="margin: 8px 20px!important; font-size: 16px!important;line-height: 24px!important;font-weight: 600!important;">PG / Co-living</button>
                         </div>
                     </div>
-                    <div id="tab12" class="inputFilterOptions tab-content">
+                    <div id="tab12" class="inputFilterOptions tab-content" style="display:block;">
                             <div class="basicFilter">  
                                 <div class="list_header text-muted">
                                     <div class="">All Residential</div>
@@ -55,15 +55,14 @@
                                 <div class="Input-feild">
                                     <div class="searchFieldInput" style="position:relative;">
                                         <i class="fas fa-search icon_search"></i>
-                                        <div class="component__DeskSfInput" style="min-width: 250px!important;">
-                                            <input type="text" name="keyword" class="component__searchInput" onclick="modify()" id="keyword2" autocomplete="off" value="" style="min-width: 250px!important;">
-                                            <div class="component__suggest" id="none" ></div>
+                                        <div class="component__DeskSfInput">
+                                            <input type="text" name="keyword" class="component__searchInput" onclick="modify()" id="keyword2" autocomplete="off" value="" placeholder="City Name" style="min-width: 0px;">
                                         </div>
                                     </div>
                                 </div>  
                                 <div style="width:auto" class="sbar__searchBtn d-flex align-items-center justify-content-center">
                                     <button class="pageComponent buttons__primaryRegular undefined " style="width:auto; opacity:1;" >
-                                        <span class=" " >Explore</span>
+                                        <span class=" ">Explore</span>
                                     </button>
                                 </div>
                             </div>
@@ -122,28 +121,28 @@
                                 <div class="d-flex flex-column">
                                     <ul class="theader__cHover p-0">
                                         <li>
-                                            <a class="pageComponent fw-bolder"   target="_blank" href="#" title="">Property in Delhi / NCR</a>
+                                            <a href="buy-property.php" class="pageComponent fw-bolder"   target="_blank" href="#" title="">Property in Delhi / NCR</a>
                                         </li>
                                         <li>
-                                            <a class="pageComponent"   target="_blank" href="#" title="">Property in Mumbai</a>
+                                            <a href="buy-property.php" class="pageComponent"   target="_blank" href="#" title="">Property in Mumbai</a>
                                         </li>
                                         <li>
-                                            <a class="pageComponent"   target="_blank" href="#" title="">Property in Bangalore</a>
+                                            <a href="buy-property.php" class="pageComponent"   target="_blank" href="#" title="">Property in Bangalore</a>
                                         </li>
                                         <li>
-                                            <a class="pageComponent"   target="_blank" href="#" title="">Property in Hyderabad</a>
+                                            <a href="buy-property.php" class="pageComponent"   target="_blank" href="#" title="">Property in Hyderabad</a>
                                         </li>
                                         <li>
-                                            <a class="pageComponent"   target="_blank" href="#" title="">Property in Pune</a>
+                                            <a href="buy-property.php" class="pageComponent"   target="_blank" href="#" title="">Property in Pune</a>
                                         </li>
                                         <li>
-                                            <a class="pageComponent"  target="_blank" href="#" title="">Property in Kolkata</a>
+                                            <a href="buy-property.php" class="pageComponent"  target="_blank" href="#" title="">Property in Kolkata</a>
                                         </li>
                                         <li>
-                                            <a class="pageComponent"   target="_blank" href="#" title="">Property in Chennai</a>
+                                            <a href="buy-property.php" class="pageComponent"   target="_blank" href="#" title="">Property in Chennai</a>
                                         </li>
                                         <li>
-                                            <a class="pageComponent"   target="_blank" href="#" title="">Property in Ahmedabad</a>
+                                            <a href="buy-property.php" class="pageComponent"   target="_blank" href="#" title="">Property in Ahmedabad</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -185,7 +184,7 @@
                                 <img src="images/projectnoimage.webp" alt="BUY A HOME" title="BUY A HOME" decoding="auto" style="background-image: url(&quot;images/projectnoimage.webp&quot;);">
                             </picture> -->
                         </div>
-                        <div class="caption_subdued_medium theader__navBtmTxt">Email us at <span class="Ng500">services@99acres.com.</span> or call us at <span class="Ng500">1800 41 99099</span> (IND Toll-Free)</div>
+                        <div class="caption_subdued_medium theader__navBtmTxt">Email us at <span class="Ng500">services@broker365.com.</span> or call us at <span class="Ng500">1800 41 99099</span> (IND Toll-Free)</div>
                     </div>
                   </div>
                 </li>
@@ -224,28 +223,28 @@
                                 <div class="d-flex flex-column">
                                     <ul class="theader__cHover p-0">
                                         <li>
-                                            <a class="pageComponent fw-bolder"   target="_blank" href="#" title="">Property in Delhi / NCR</a>
+                                            <a href="buy-property.php" class="pageComponent fw-bolder"   target="_blank" href="#" title="">Property in Delhi / NCR</a>
                                         </li>
                                         <li>
-                                            <a class="pageComponent"   target="_blank" href="#" title="">Property in Mumbai</a>
+                                            <a href="buy-property.php" class="pageComponent"   target="_blank" href="#" title="">Property in Mumbai</a>
                                         </li>
                                         <li>
                                             <a class="pageComponent"   target="_blank" href="#" title="">Property in Bangalore</a>
                                         </li>
                                         <li>
-                                            <a class="pageComponent"   target="_blank" href="#" title="">Property in Hyderabad</a>
+                                            <a href="buy-property.php" class="pageComponent"   target="_blank" href="#" title="">Property in Hyderabad</a>
                                         </li>
                                         <li>
-                                            <a class="pageComponent"   target="_blank" href="#" title="">Property in Pune</a>
+                                            <a href="buy-property.php" class="pageComponent"   target="_blank" href="#" title="">Property in Pune</a>
                                         </li>
                                         <li>
-                                            <a class="pageComponent"  target="_blank" href="#" title="">Property in Kolkata</a>
+                                            <a href="buy-property.php" class="pageComponent"  target="_blank" href="#" title="">Property in Kolkata</a>
                                         </li>
                                         <li>
-                                            <a class="pageComponent"   target="_blank" href="#" title="">Property in Chennai</a>
+                                            <a href="buy-property.php" class="pageComponent"   target="_blank" href="#" title="">Property in Chennai</a>
                                         </li>
                                         <li>
-                                            <a class="pageComponent"   target="_blank" href="#" title="">Property in Ahmedabad</a>
+                                            <a href="buy-property.php" class="pageComponent"   target="_blank" href="#" title="">Property in Ahmedabad</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -287,7 +286,7 @@
                                 <img src="images/projectnoimage.webp" alt="BUY A HOME" title="BUY A HOME" decoding="auto" style="background-image: url(&quot;images/projectnoimage.webp&quot;);">
                             </picture> -->
                         </div>
-                        <div class="caption_subdued_medium theader__navBtmTxt">Email us at <span class="Ng500">services@99acres.com.</span> or call us at <span class="Ng500">1800 41 99099</span> (IND Toll-Free)</div>
+                        <div class="caption_subdued_medium theader__navBtmTxt">Email us at <span class="Ng500">services@broker365.com.</span> or call us at <span class="Ng500">1800 41 99099</span> (IND Toll-Free)</div>
                     </div>
                   </div>
                 </li>
@@ -320,16 +319,16 @@
                                 <div class="d-flex flex-column">
                                     <ul class="theader__cHover p-0">
                                         <li>
-                                            <a class="pageComponent fw-bolder"   target="_blank" href="#" title="">Post Property for Free</a>
+                                            <a  class="pageComponent fw-bolder"   target="_blank" href="property.php" title="">Post Property for Free</a>
                                         </li>
                                         <li>
-                                            <a class="pageComponent"   target="_blank" href="#" title="">Owner Services</a>
+                                            <a  class="pageComponent"   target="_blank" href="#" title="">Owner Services</a>
                                         </li>
                                         <li>
-                                            <a class="pageComponent"   target="_blank" href="#" title="">Mybroker365</a>
+                                            <a class="pageComponent"   target="_blank" href="register.php" title="">Mybroker365</a>
                                         </li>
                                         <li>
-                                            <a class="pageComponent"   target="_blank" href="#" title="">View Responses</a>
+                                            <a class="pageComponent"   target="_blank" href="register.php" title="">View Responses</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -341,7 +340,7 @@
                             </div>
                             <img src="images/IMAGES.png">
                         </div>
-                        <div class="caption_subdued_medium theader__navBtmTxt">Email us at <span class="Ng500">services@99acres.com.</span> or call us at <span class="Ng500">1800 41 99099</span> (IND Toll-Free)</div>
+                        <div class="caption_subdued_medium theader__navBtmTxt">Email us at <span class="Ng500">services@broker365.com.</span> or call us at <span class="Ng500">1800 41 99099</span> (IND Toll-Free)</div>
                     </div>
                   </div>
                 </li>
@@ -371,19 +370,19 @@
                                 <div class="d-flex flex-column">
                                     <ul class="theader__cHover p-0">
                                         <li>
-                                            <a class="pageComponent fw-bolder"   target="_blank" href="#" title="">Post Property</a>
+                                            <a href="property.php" class="pageComponent fw-bolder"   target="_blank"  title="">Post Property</a>
                                         </li>
                                         <li>
                                             <a class="pageComponent"   target="_blank" href="#" title="">Dealer Services</a>
                                         </li>
                                         <li>
-                                            <a class="pageComponent"   target="_blank" href="#" title="">Mybroker365</a>
+                                            <a class="pageComponent"   target="_blank" href="register.php" title="">Mybroker365</a>
                                         </li>
                                         <li>
-                                            <a class="pageComponent"   target="_blank" href="#" title="">View Responses</a>
+                                            <a class="pageComponent"   target="register.php" href="#" title="">View Responses</a>
                                         </li>
                                         <li>
-                                            <a class="pageComponent"   target="_blank" href="#" title="">Make an advance payment</a>
+                                            <a href="buy-property.php" class="pageComponent"   target="_blank" href="#" title="">Make an advance payment</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -395,7 +394,7 @@
                             </div>
                             <img src="images/IMAGES.png">
                         </div>
-                        <div class="caption_subdued_medium theader__navBtmTxt">Email us at <span class="Ng500">services@99acres.com.</span> or call us at <span class="Ng500">1800 41 99099</span> (IND Toll-Free)</div>
+                        <div class="caption_subdued_medium theader__navBtmTxt">Email us at <span class="Ng500">services@broker365.com.</span> or call us at <span class="Ng500">1800 41 99099</span> (IND Toll-Free)</div>
                     </div>
                   </div>
                 </li>
@@ -434,31 +433,31 @@
                                 <div class="d-flex flex-column">
                                     <ul class="theader__cHover p-0">
                                         <li>
-                                            <a class="pageComponent fw-bolder"   target="_blank" href="#" title="">Pune Overview</a>
+                                            <a href="buy-property.php" class="pageComponent fw-bolder"   target="_blank" href="#" title="">Pune Overview</a>
                                         </li>
                                         <li>
-                                            <a class="pageComponent"   target="_blank" href="#" title="">Noida Overview</a>
+                                            <a href="buy-property.php" class="pageComponent"   target="_blank" href="#" title="">Noida Overview</a>
                                         </li>
                                         <li>
-                                            <a class="pageComponent"   target="_blank" href="#" title="">Mumbai Overview</a>
+                                            <a href="buy-property.php" class="pageComponent"   target="_blank" href="#" title="">Mumbai Overview</a>
                                         </li>
                                         <li>
-                                            <a class="pageComponent"   target="_blank" href="#" title="">Hyderabad Overview</a>
+                                            <a href="buy-property.php" class="pageComponent"   target="_blank" href="#" title="">Hyderabad Overview</a>
                                         </li>
                                         <li>
-                                            <a class="pageComponent"   target="_blank" href="#" title="">Gurgaon Overview</a>
+                                            <a href="buy-property.php" class="pageComponent"   target="_blank" href="#" title="">Gurgaon Overview</a>
                                         </li>
                                         <li>
-                                            <a class="pageComponent"  target="_blank" href="#" title="">Delhi Overview</a>
+                                            <a href="buy-property.php" class="pageComponent"  target="_blank" href="#" title="">Delhi Overview</a>
                                         </li>
                                         <li>
-                                            <a class="pageComponent"   target="_blank" href="#" title="">Chennai Overview</a>
+                                            <a href="buy-property.php" class="pageComponent"   target="_blank" href="#" title="">Chennai Overview</a>
                                         </li>
                                         <li>
-                                            <a class="pageComponent"   target="_blank" href="#" title="">Bangalore Overview</a>
+                                            <a href="buy-property.php" class="pageComponent"   target="_blank" href="#" title="">Bangalore Overview</a>
                                         </li>
                                         <li>
-                                            <a class="pageComponent text-primary"   target="_blank" href="#" title="">View All Insights</a>
+                                            <a href="buy-property.php" class="pageComponent text-primary"   target="_blank" href="#" title="">View All Insights</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -500,12 +499,12 @@
                                 <img src="images/projectnoimage.webp" alt="BUY A HOME" title="BUY A HOME" decoding="auto" style="background-image: url(&quot;images/projectnoimage.webp&quot;);">
                             </picture> -->
                         </div>
-                        <div class="caption_subdued_medium theader__navBtmTxt">Email us at <span class="Ng500">services@99acres.com.</span> or call us at <span class="Ng500">1800 41 99099</span> (IND Toll-Free)</div>
+                        <div class="caption_subdued_medium theader__navBtmTxt">Email us at <span class="Ng500">services@broker365.com.</span> or call us at <span class="Ng500">1800 41 99099</span> (IND Toll-Free)</div>
                     </div>
                   </div>
                 </li>
                 <li class="nav-item style__postContainer">
-                    <a class="nav-link style__post" href="javascript:void(0)">Post property <span class="free p-1 ms-1">FREE</span></a>
+                    <a class="nav-link style__post" href="property.php">Post property <span class="free p-1 ms-1">FREE</span></a>
                 </li>
                 <li class="nav-item ms-3 d-flex align-items-center justify-content-center">
                     <div class="me-3" style="display:block; position:relative;background-color:#fff; border-radius:50%;">
@@ -555,7 +554,7 @@
                                     </div> -->
                                 </li>
                             </ul>
-                            <a><button type="submit" variant="secondaryRegular" font-style="bold" class="pageComponent buttons__secondaryRegular buttons__bold    pageComponent " data-label="REQUEST_CALL_BACK_HOME" style="width:calc(100% - 48px);margin-left:24px;margin-right:24px" data-sstheme="_BUTTON_TOP_LEVEL">
+                            <a href="register.php" target="_blank"><button type="submit" variant="secondaryRegular" font-style="bold" class="pageComponent buttons__secondaryRegular buttons__bold    pageComponent " data-label="REQUEST_CALL_BACK_HOME" style="width:calc(100% - 48px);margin-left:24px;margin-right:24px" data-sstheme="_BUTTON_TOP_LEVEL">
                                 <span class=" " data-sstheme="_BUTTON_SPAN"><i class="fas fa-phone" style="font-size:16px; color:#07133D;"> </i>
                                 <span class="ms-2 pt-1">Request a Call Back</span>
                                 </span>
@@ -569,7 +568,7 @@
                     <div class="me-3" style="display:block; position:relative;background-color:#fff; border-radius:50%;">
                         <a href="#"><i class='fas fa-user user-icons' style="font-size:16px;color:#000; padding:8px;"></i> </a>
                         <div class="theader__popupCity theader__login false nulled">
-                            <div class="P500 hyperlinks_medium bold spacer16" style="cursor:pointer;">LOGIN / REGISTER</div>
+                            <a href="register.php" target="_blank" class="P500 hyperlinks_medium bold spacer16" style="cursor:pointer;">LOGIN / REGISTER</a>
                                 <ul class="body_small theader__loginList p-0">
                                     <li>
                                         <a class="pageComponent Ng800 theader__fl" href="#">My Activity</a>
@@ -605,14 +604,14 @@
             <div class="offcanvas-header">
                 <div class="offcanvas-title d-flex justify-content-center align-items-center">
                     <span><i class="fas fa-user" style="font-size:18px; color:#000;"></i></span>
-                    <div class="P500 hyperlinks_medium bold spacer16 mt-3 ms-3" style="cursor:pointer;">LOGIN / REGISTER</div>
+                    <a href="register.php" target="_blank"><div class="P500 hyperlinks_medium bold spacer16 mt-3 ms-3" style="cursor:pointer;">LOGIN / REGISTER</div></a>
                 </div>
                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
             </div>
             <div class="offcanvas-body">
             <div class="hmenu__postYourProperty">
                 <div class="pageComponent body_med Ng800">
-                    <a class="Ng800 semi" href="#">Post Property</a>
+                    <a href="property.php" class="Ng800 semi" href="#">Post Property</a>
                 </div>
                 <div class="style__shimmer" style="width: 41px; height: 19px;">
                     <div class="style__free" style="font-size: 12px;">FREE</div>

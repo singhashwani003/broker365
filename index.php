@@ -80,7 +80,7 @@
                                                     <i class="fas fa-search icon_search"></i>
                                                     <div class="component__DeskSfInput">
                                                         <input type="text" name="keyword" class="component__searchInput" onclick="removeHandler()" id="keyword2" autocomplete="off" value="">
-                                                        <div class="component__suggest" id="Display" ></div>
+                                                        <div class="component__suggest" id="Display1" ></div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -162,7 +162,7 @@
                                                     <i class="fas fa-search icon_search"></i>
                                                     <div class="component__DeskSfInput">
                                                         <input type="text" name="keyword" class="component__searchInput" onclick="removeHandler()" id="keyword2" autocomplete="off" value="">
-                                                        <div class="component__suggest" id="Display" ></div>
+                                                        <div class="component__suggest" id="Display2" ></div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -203,7 +203,7 @@
                                                     <i class="fas fa-search icon_search"></i>
                                                     <div class="component__DeskSfInput">
                                                         <input type="text" name="keyword" class="component__searchInput" onclick="removeHandler()" id="keyword2" autocomplete="off" value="">
-                                                        <div class="component__suggest" id="display" ></div>
+                                                        <div class="component__suggest" id="display3" ></div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -244,7 +244,7 @@
                                                     <i class="fas fa-search icon_search"></i>
                                                     <div class="component__DeskSfInput">
                                                         <input type="text" name="keyword" class="component__searchInput" onclick="removeHandler()" id="keyword2" autocomplete="off" value="">
-                                                        <div class="component__suggest" id="Display" ></div>
+                                                        <div class="component__suggest" id="Display4" ></div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -285,7 +285,7 @@
                                                     <i class="fas fa-search icon_search"></i>
                                                     <div class="component__DeskSfInput">
                                                         <input type="text" name="keyword" class="component__searchInput" onclick="removeHandler()" id="keyword2" autocomplete="off" value="">
-                                                        <div class="component__suggest" id="Display" ></div>
+                                                        <div class="component__suggest" id="Display5" ></div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -5123,7 +5123,7 @@
 <section class="residentals py-5 mt1">
     <div class="container">
             <div class="pageComponent undefined">
-            <div class="title_l_bold Ng800 spacer4">99acres exclusive</div>
+            <div class="title_l_bold Ng800 spacer4">broker365 exclusive</div>
             <div class="caption_strong_large spacer8 mt-1">Sponsored projects and events</div>
             <div class="spacer8"></div>
             <div class="row mt-3">
@@ -5151,23 +5151,23 @@
 <!-- section two cards area start -->
 <section class="why-choose" style="padding: 2rem 12rem;">
     <div class="container">
-        <h6 class="text-center">BENEFITS OF BROKER365</h6>
-        <h1 class="text-center">Why choose broker365</h1>
+        <h6 class="text-center">HOW TO POST</h6>
+        <h1 class="text-center">Post Your Property in <br>  3 Simple Steps</h1>
         <div class="row d-flex justify-content-center align-items-center mt-5 pt">
             <div class="col-md-6 col-xl-4 col-lg-4 col-sm-12 ps-5 mt1">
-                <div class="boxing"><i class="fas fa-phone text-primary"></i></div>
+                <img src="images/download.png" class="mb-4" style="width:50px; height:50px;">
                 <div class="title_semiBold Ng800 spacer10">
                     <span class="hyperlinks_large" style="cursor: auto;">01. </span>  Over 12 Lac properties</div>  
                 <div class="body_large Ng400">10,000+ properties are added every day</div>
             </div>
             <div class="col-md-6 col-xl-4 col-lg-4 col-sm-12 ps-5 mt1">
-                <div class="boxing"><i class="fas fa-home text-primary"></i></div>
+                <img src="images/download1.png" class="mb-4" style="width:50px; height:50px;">
                 <div class="title_semiBold Ng800 spacer10">
                     <span class="hyperlinks_large" style="cursor: auto;">02. </span>  Verification by broker365 team</div>  
                 <div class="body_large Ng400">Photos / Videos and other details are verified on location</div>
             </div>
             <div class="col-md-6 col-xl-4 col-lg-4 col-sm-12 ps-5 mt1">
-                <div class="boxing"><i class="fas fa-user text-primary"></i></div>
+                <img src="images/download2.png" class="mb-4" style="width:50px; height:50px;">
                 <div class="title_semiBold Ng800 spacer10">
                     <span class="hyperlinks_large" style="cursor: auto;">03. </span>  Large user base</div>  
                 <div class="body_large Ng400">High active user count and user engagement to find and close deals</div>
@@ -5321,265 +5321,4 @@
 <?php include('footer.php'); ?>
 <!-- footer area end  -->
 
-
-<!-- our js area -->
-
-<script type="text/javascript">
-    function removeHandler(){
-    var searchBar = document.getElementById("Display");
-    var remove = document.getElementById("display");
-    searchBar.style.display = "none";
-    remove.style.display = "none";
-}
-        // const sliderContainer = document.getElementById("slider-container");
-        // const slides = Array.from(document.getElementsByClassName("slide"));
-
-        // let currentSlideIndex = 0;
-
-        // // Show initial slide
-        // slides[currentSlideIndex].classList.add("active");
-
-        // // Function to transition to the next slide
-        // function nextSlide() {
-        // slides[currentSlideIndex].classList.remove("active");
-        // currentSlideIndex = (currentSlideIndex + 1) % slides.length;
-        // slides[currentSlideIndex].classList.add("active");
-        // }
-
-        // // Set an interval to automatically transition slides
-        // setInterval(nextSlide, 3000);
-</script>
-
-<script>
-function openTab(event, tabId) {
-  // Hide all tab content
-  const tabContents = document.getElementsByClassName("tab-content");
-  for (let i = 0; i < tabContents.length; i++) {
-    tabContents[i].style.display = "none";
-  }
-
-  // Deactivate all tab buttons
-  const tabBtns = document.getElementsByClassName("tab-btn");
-  for (let i = 0; i < tabBtns.length; i++) {
-    tabBtns[i].classList.remove("active");
-  }
-
-  // Show the selected tab content
-  document.getElementById(tabId).style.display = "block";
-
-  // Activate the clicked tab button
-  event.currentTarget.classList.add("active");
-}
-
-// Set the first tab as active by default
-document.getElementById("tab1").style.display = "block";
-document.getElementById("tab5").style.display = "block";
-document.getElementById("tab12").style.display = "block";
-document.getElementsByClassName("tab-btn")[0].classList.add("active");
-</script>
-
-<!-- boostrap bundel -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
-<!-- fontawesome -->
-<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
-
- <!-- animation -->
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-    AOS.init({
-        offset: 200,
-        duration: 2000,
-    });
-  </script>
-  
- <!-- sick slider -->
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script type="text/javascript">
-    $('.slider').slick({
-  dots: true,
-  infinite:true,
-  speed: 300,
-  slidesToShow: 5,
-  slidesToScroll: 1,
-  responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        infinite: true,
-        dots: true
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
-  ]
-});
-  </script>
-  <script type="text/javascript">
-    $('.sliding').slick({
-  dots: true,
-  infinite:true,
-  speed: 300,
-  slidesToShow: 4,
-  slidesToScroll: 2,
-  responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        infinite: true,
-        dots: true
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
-  ]
-});
-  </script>
-  <script type="text/javascript">
-    $('.sick-slider').slick({
-  dots: true,
-  infinite:true,
-  speed: 300,
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        infinite: true,
-        dots: true
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
-  ]
-});
-  </script>
-   <script type="text/javascript">
-    $('.residental-slider').slick({
-  dots: true,
-  infinite:true,
-  speed: 300,
-  slidesToShow: 2,
-  slidesToScroll: 1,
-  responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1,
-        infinite: true,
-        dots: true
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
-  ]
-});
-  </script>
-   <script type="text/javascript">
-    $('.testimonial-slider').slick({
-  dots: true,
-  infinite:true,
-  speed: 300,
-  slidesToShow: 2,
-  slidesToScroll: 1,
-  responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        infinite: true,
-        dots: true
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
-  ]
-});
-  </script>
 

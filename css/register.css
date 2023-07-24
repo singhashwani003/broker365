@@ -1,0 +1,82 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-color:#07133D;
+}
+.register-card{
+    height:550px; 
+    width:700px;
+    overflow: hidden;
+}
+.register-card h3 {
+    padding: 10px 0;
+    color: #333 !important;
+    border-bottom: 3px #fff solid;
+    text-align: center;
+    margin: 0 5px;
+    font-size: 16px;
+    border-radius: 0;
+}
+.register-banner{
+    height:550px; 
+    width: 100%;
+    background: url(../images/Asset_2mdpi.png) no-repeat left bottom,linear-gradient(180deg, #3498db 0, #16a085 100%);
+    color: #fff;
+    font-size: 12px;
+    position: relative;
+    background-size: contain;
+}
+.component__signUpBlock {
+    display: block;
+    padding-left: 10px;
+}
+.component__heading {
+    font-size: 14px;
+    font-weight: 700;
+    margin: 10px 10px 0;
+}
+ul.component__headingContent {
+    list-style: none;
+    margin: 0;
+    padding: 10px 10px 10px 25px;
+}
+ul.component__headingContent li {
+    list-style: circle;
+    margin: 6px 0;
+}
+.tab {
+    overflow: hidden;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button{
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 10px 20px;
+    text-align: center;
+    margin: 0 5px;
+    font-size: 20px;
+    border-radius: 0;
+  }
+  
+  /* Change background color of buttons on hover */
+  /* .tab button:hover {
+    border-bottom: 4px solid #16a085;
+  } */
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    color: #16a085 !important;
+    border-bottom: 4px solid #16a085;
+    font-weight: 700;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    border: none;
+  }
