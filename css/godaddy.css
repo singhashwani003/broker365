@@ -2338,11 +2338,22 @@ border: none;
     transition: 0.4s;
   }
   
-  .accordion .active, .accordion:hover {
+  .rent-property .active, .faq .active , .accordion:hover {
     background-color: #07133D;
+    color: #fff!important;
+  }
+.faq .active, .faq .accordion:hover {
+    background-color: #07133D;
+    color: #fff!important;
+  }
+  .faq .active:after {
+    content: "\2212";
     color: #fff;
   }
-  
+  .rent-property .active:after {
+    content: "\2212";
+    color: #fff;
+  }
   .accordion:after {
     content: '\002B';
     color: #777;
@@ -2356,7 +2367,7 @@ border: none;
   }
   .accordion .active{
     background-color: #07133D;
-    color: #fff;
+    color: #fff!important;
   }
   
   .panel {
@@ -2617,6 +2628,266 @@ border: none;
   .label-switch .slider.round:before {
     border-radius: 50%;
   }
+  .owner{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    color: #8993A4;
+    display: block;
+  }
+  .owner-title{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    color: #091E42;
+    display: block;
+  }
+  .owner-card-body{
+    background-color: #F0F9FF;
+    border: 1px solid #D6EFFF;
+    border-radius: 16px 16px 0 0;
+  }
+  .owner-card-title{
+    text-align: center;
+    padding: 32px 0 32px 0;
+    height: 88px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 18px;
+    color: #42526E;
+  }
+  .owner-card-content{
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    height: fit-content;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(31,92,163,0.2);
+    border-radius: 12px 12px 0px 0px;
+  }
+  .owner-card-content:hover{
+    border: 1px solid #0078DB;
+    box-shadow: 0px 8px 12px rgba(31,92,163,0.2);
+    padding: 20px 19px;
+  }
+  .plan:hover{
+    border: 1px solid #0078DB;
+    box-shadow: 0px 8px 12px rgba(31,92,163,0.2);
+  }
+  .plan-active{
+    border: 1px solid #0078DB;
+    box-shadow: 0px 8px 12px rgba(31,92,163,0.2);
+  }
+  .d_bos_planTupleOwner__mainContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.d_bos_planTupleOwner__planImage {
+    width: 42px;
+    height: 42px;
+    margin-right: 8px;
+    border-radius: 8px;
+}
+.d_bos_planTupleOwner__planTextWrap {
+    display: inline-block;
+    height: 42px;
+}
+ .d_bos_planTupleOwner__heading {
+    font-size: 16px;
+    line-height: 21.79px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #0078DB;
+    margin: 0px;
+}
+.d_bos_planTupleOwner__subheading {
+    line-height: 18px;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0px;
+}
+.d_bos_planTupleOwner__lottieContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 68px;
+    height: 42px;
+    background-color: #FAFAFA;
+    border-radius: 5px;
+}
+ .d_bos_planTupleOwner__lottieImg {
+    width: 56px;
+    height: 31px;
+    margin-bottom: 8px;
+}
+.d_bos_planTupleOwner__description {
+    margin-top: 12px;
+    margin-bottom: 18px;
+    text-align: left;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    height: 54px;
+    color: #42526E;
+}
+.d_bos_planTupleOwner__priceRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.d_bos_planTupleOwner__mainSellingPrice {
+    font-family: 'Open Sans';
+    margin-right: 4px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #253858;
+}
+.caption_subdued_small {
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: 400;
+    color: #8993A4;
+    display: block;
+    text-align: left;
+}
+.d_bos_planTupleOwner__monthOptionsText {
+    height: 34px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 17px;
+    color: #42526E;
+}
+.d_bos_planTupleOwner__btn {
+    width: 121px;
+    height: 36px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 4px rgba(31,92,163,0.2);
+    padding: 8px 10px;
+    font-weight: 600;
+    background: #0078DB;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    outline: none;
+    margin: 0;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 0;
+    min-height: auto;
+    padding: 8px 16px;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+.d_bos_planTupleOwner__benifitsContainer {
+    margin-top: 20px;
+    background: #F4F9FF;
+    border-radius: 8px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 13px;
+    padding-right: 13px;
+    text-align: left;
+    text-overflow: ellipsis;
+    overflow-x: hidden;
+    white-space: pre-line;
+}
+.d_bos_planTupleOwner__points {
+    /* margin-bottom: 12px; */
+    display: flex;
+    flex-direction: row;
+    min-height: 16px;
+}
+.d_bos_planTupleOwner__descriptionImg {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    font-style: normal;
+    background-repeat: no-repeat;
+    margin-right: 6px;
+}
+.d_bos_planTupleOwner__pointsText {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-overflow: ellipsis;
+    white-space: pre-line;
+    overflow: hidden;
+    color: #42526E;
+}
+.d_bos_comparePlans__pbCell{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #ebecf0;
+    position: relative;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #42526E;
+    padding-left: 23px;
+    /* border-left: 1px solid #80bce9; */
+    flex-direction: row;
+    padding-right: 15px;
+}
+.d_bos_comparePlans__pbCellBold {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    width: 85%;
+}
+.d_bos_comparePlans__buyerResponse {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #8993A4;
+}
+.d_bos_comparePlans__buyerResponseBold {
+    font-weight: 600;
+    color: #42526E;
+}
+.faq{
+    height: 824px;
+}
+.faq-container{
+    width: 100%;
+    background-color: #FFF5E4;
+    padding-top: 52px;
+    height: 674px;
+}
+.faq .accordion{
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    color: #091E42;
+    display: block;
+    text-align: left;
+    transition: 0.4s;
+}
 @media (max-width: 576px) {
     .banner-area .banner-content {
         left: 5%;

@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
         <!-- external css -->
-        <link rel="stylesheet" href="css/godaddy.css?ver=79"/>
+        <link rel="stylesheet" href="css/godaddy.css?ver=87"/>
 
         <!-- title -->
         <title>brokers365</title>
@@ -322,7 +322,7 @@
                                             <a  class="pageComponent fw-bolder"   target="_blank" href="property.php" title="">Post Property for Free</a>
                                         </li>
                                         <li>
-                                            <a  class="pageComponent"   target="_blank" href="#" title="">Owner Services</a>
+                                            <a  class="pageComponent"   href="owner.php" target="_blank" title="">Owner Services</a>
                                         </li>
                                         <li>
                                             <a class="pageComponent"   target="_blank" href="register.php" title="">Mybroker365</a>
